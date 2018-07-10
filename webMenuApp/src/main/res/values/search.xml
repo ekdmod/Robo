@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="search_dialog_list_view">
+        <item>knowledge_menu_list</item>
+    </string-array>
+    <string-array name="knowledge_menu_list">
+        <item>php_knowledge_menu</item>
+        <item>java_knowledge_menu</item>
+        <item>csharp_knowledge_menu</item>
+        <item>cplus_knowledge_menu</item>
+        <item>android_knowledge_menu</item>
+    </string-array>
+</resources>

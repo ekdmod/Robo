@@ -1,0 +1,6 @@
+C:\Documents and Settings\EK\AndroidstudioProjects\WebMenuApp\webMenuApp\build\intermediates\classes\debug
+C:\Documents and Settings\EK\AndroidstudioProjects\WebMenuApp\webMenuApp\build\intermediates\pre-dexed\debug\classes-e3dc4e356fb1e95ebebc3e7064e4dbf348138151.jar
+C:\Documents and Settings\EK\AndroidstudioProjects\WebMenuApp\webMenuApp\build\intermediates\pre-dexed\debug\voiceimeutils-f0b187a4b486a9ea5a308faab0db259c3db2f274.jar
+C:\Documents and Settings\EK\AndroidstudioProjects\WebMenuApp\webMenuApp\build\intermediates\pre-dexed\debug\classes-d8dfab5a2a3e5608e4925ba470dc77adc6af4ffc.jar
+C:\Documents and Settings\EK\AndroidstudioProjects\WebMenuApp\webMenuApp\build\intermediates\pre-dexed\debug\android-support-v7-appcompat-4ca8c7650b62b88298a18b12c0e8bb12746bf331.jar
+C:\Documents and Settings\EK\AndroidstudioProjects\WebMenuApp\webMenuApp\build\intermediates\pre-dexed\debug\android-support-v4-2409b652f41221b0a00cdb05955bc7888a46d484.jar

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ImageViewExample">
+        <attr name="imageHeight" format="float"/>
+        <attr name="scaleWidth" format="float"/>
+        <attr name="imageWidth" format="float"/>
+        <attr name="scaleHeight" format="float"/>
+    </declare-styleable>
+</resources>

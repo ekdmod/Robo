@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    <solid
+        android:color="#5091a7ff"
+   />
+    <gradient 
+        android:startColor="#50455a64"
+		android:endColor="#5037474f"
+		android:angle="90"
+    />
+</shape>
+<!-- From: file:/C:/Documents%20and%20Settings/EK/AndroidstudioProjects/WebMenuApp/webMenuApp/src/main/res/drawable-hdpi/button_on_deselect.xml -->

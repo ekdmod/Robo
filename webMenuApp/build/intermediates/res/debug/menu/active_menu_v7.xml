@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.webmenuapp.ActiveMenu" >
+	<item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="50"
+        android:icon="@drawable/more_info_page_1"
+        app:showAsAction="always">
+	    <menu>
+			<item
+		        android:id="@+id/theme_settings"
+		        android:title="@string/settings"
+		        android:icon="@drawable/start_settings" />
+		    <item
+		        android:id="@+id/closeApplication"
+				android:title="@string/exitApp"
+		        android:icon="@drawable/exit_item_2" />
+	    </menu>
+	</item>
+</menu>
+<!-- From: file:/C:/Documents%20and%20Settings/EK/AndroidstudioProjects/WebMenuApp/webMenuApp/src/main/res/menu/active_menu_v7.xml -->

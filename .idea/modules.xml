@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/WebMenuApp.iml" filepath="$PROJECT_DIR$/WebMenuApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-support-v4/android-support-v4.iml" filepath="$PROJECT_DIR$/android-support-v4/android-support-v4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-support-v7_jar-appcompat/android-support-v7_jar-appcompat.iml" filepath="$PROJECT_DIR$/android-support-v7_jar-appcompat/android-support-v7_jar-appcompat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-support-v7-appcompat/androidsupportv7appcompat/androidsupportv7appcompat.iml" filepath="$PROJECT_DIR$/android-support-v7-appcompat/androidsupportv7appcompat/androidsupportv7appcompat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/satellitemenu/satellitemenu.iml" filepath="$PROJECT_DIR$/satellitemenu/satellitemenu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/voiceimeutils/voiceimeutils.iml" filepath="$PROJECT_DIR$/voiceimeutils/voiceimeutils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webMenuApp/webMenuApp.iml" filepath="$PROJECT_DIR$/webMenuApp/webMenuApp.iml" />
+    </modules>
+  </component>
+</project>
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu_definitions">
+    </string-array>
+    <string-array name="android_knowledge_menu_definitions">
+
+    </string-array>
+    <string-array name="java_knowledge_menu_definitions">
+
+    </string-array>
+    <string-array name="cplus_knowledge_menu_definitions">
+
+    </string-array>
+    <string-array name="php_knowledge_menu_definitions">
+
+    </string-array>
+    <string-array name="csharp_knowledge_menu_definitions">
+
+    </string-array>
+</resources>

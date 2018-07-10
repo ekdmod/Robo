@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="nav_drawer_items">
+    	<item>About us</item>
+		<item>Products</item>
+    	<item>News</item>
+		<item>Knowledge base</item>
+		<item>Services</item>
+    	<item>Support</item>
+		<item>Technology description</item>
+	</string-array>
+	<array name="nav_drawer_icon">
+	    <item>@drawable/info_ab</item>
+		<item>@drawable/products_00</item>
+		<item>@drawable/news_8</item>
+		<item>@drawable/knowledge_base</item>
+		<item>@drawable/service_0</item>
+		<item>@drawable/begin_3</item>
+		<item>@drawable/ic_launcher</item>
+		<item>@drawable/about_us</item>
+	</array>
+	<string-array name="nav_front_name">
+	    <item>About us</item>
+	    <item>Why we are different?</item>
+	    <item>Solutions</item>
+	</string-array>
+	<array name="nav_front_menu">
+	    <item>@drawable/strategy</item>
+	    <item>@drawable/future_of_business</item>
+	    <item>@drawable/solutions</item>
+	</array>
+</resources>

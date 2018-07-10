@@ -1,0 +1,385 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1257">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 11">
+<meta name=Originator content="Microsoft Word 11">
+<link rel=File-List href="Expressions%20in%20Php_files/filelist.xml">
+<title>Expressions</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>EDEN</o:Author>
+  <o:LastAuthor>EDEN</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>1</o:TotalTime>
+  <o:Created>2015-02-21T14:10:00Z</o:Created>
+  <o:LastSaved>2015-02-21T14:10:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>1247</o:Words>
+  <o:Characters>7109</o:Characters>
+  <o:Company>E</o:Company>
+  <o:Lines>59</o:Lines>
+  <o:Paragraphs>16</o:Paragraphs>
+  <o:CharactersWithSpaces>8340</o:CharactersWithSpaces>
+  <o:Version>11.9999</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+h1
+	{mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:1;
+	font-size:24.0pt;
+	font-family:"Times New Roman";}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+code
+	{font-family:"Courier New";
+	mso-ascii-font-family:"Courier New";
+	mso-fareast-font-family:"Times New Roman";
+	mso-hansi-font-family:"Courier New";
+	mso-bidi-font-family:"Courier New";}
+p.simpara, li.simpara, div.simpara
+	{mso-style-name:simpara;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.para, li.para, div.para
+	{mso-style-name:para;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+span.type
+	{mso-style-name:type;}
+@page Section1
+	{size:612.0pt 792.0pt;
+	margin:27.0pt 45.0pt 27.0pt 27.0pt;
+	mso-header-margin:35.4pt;
+	mso-footer-margin:35.4pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]-->
+</head>
+
+<body lang=EN-US link=blue vlink=purple style='tab-interval:36.0pt'>
+
+<div class=Section1>
+
+<h1 align=center style='text-align:center'>Expressions</h1>
+
+<p class=simpara>Expressions are the most important building stones of PHP. In
+PHP, almost anything you write is an expression. The simplest yet most accurate
+way to define an expression is &quot;anything that has a value&quot;. </p>
+
+<p class=simpara>The most basic forms of expressions are constants and
+variables. When you type &quot;<var>$a</var> = 5&quot;, you're assigning '5'
+into <var>$a</var>. '5', obviously, has the value 5, or in other words '5' is
+an expression with the value of 5 (in this case, '5' is an integer constant). </p>
+
+<p class=simpara>After this assignment, you'd expect <var>$a</var>'s value to
+be 5 as well, so if you wrote <var>$b</var> = <var>$a</var>, you'd expect it to
+behave just as if you wrote <var>$b</var> = 5. In other words, <var>$a</var> is
+an expression with the value of 5 as well. If everything works right, this is
+exactly what will happen. </p>
+
+<p class=para>Slightly more complex examples for expressions are functions. For
+instance, consider the following function: </p>
+
+<p class=MsoNormal><code><span style='font-size:10.0pt;color:#0000BB'>&lt;?php</span></code><span
+style='font-size:10.0pt;font-family:"Courier New";color:#0000BB'><br>
+</span><code><span style='font-size:10.0pt;color:#007700'>function&nbsp;</span></code><code><span
+style='font-size:10.0pt;color:#0000BB'>foo&nbsp;</span></code><code><span
+style='font-size:10.0pt;color:#007700'>()</span></code><span style='font-size:
+10.0pt;font-family:"Courier New";color:#007700'><br>
+<code>{</code><br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</code></span><code><span
+style='font-size:10.0pt;color:#0000BB'>5</span></code><code><span
+style='font-size:10.0pt;color:#007700'>;</span></code><span style='font-size:
+10.0pt;font-family:"Courier New";color:#007700'><br>
+<code>}</code><br>
+</span><code><span style='font-size:10.0pt;color:#0000BB'>?&gt;</span></code><code><span
+style='font-size:10.0pt;color:black'> </span></code></p>
+
+<p class=simpara>Assuming you're familiar with the concept of functions (if
+you're not, take a look at the chapter about <a
+href="http://php.net/manual/en/language.functions.php">functions</a>), you'd
+assume that typing <em>$c = foo()</em> is essentially just like writing <em>$c
+= 5</em>, and you're right. Functions are expressions with the value of their
+return value. Since <em>foo()</em> returns 5, the value of the expression '<em>foo()</em>'
+is 5. Usually functions don't just return a static value but compute something.
+</p>
+
+<p class=simpara>Of course, values in PHP don't have to be integers, and very
+often they aren't. PHP supports four scalar value types: <span class=type><a
+href="http://php.net/manual/en/language.types.integer.php">integer</a></span>
+values, floating point values (<span class=type><a
+href="http://php.net/manual/en/language.types.float.php">float</a></span>), <span
+class=type><a href="http://php.net/manual/en/language.types.string.php">string</a></span>
+values and <span class=type><a
+href="http://php.net/manual/en/language.types.boolean.php">boolean</a></span>
+values (scalar values are values that you can't 'break' into smaller pieces,
+unlike arrays, for instance). PHP also supports two composite (non-scalar)
+types: arrays and objects. Each of these value types can be assigned into
+variables or returned from functions. </p>
+
+<p class=simpara>PHP takes expressions much further, in the same way many other
+languages do. PHP is an expression-oriented language, in the sense that almost
+everything is an expression. Consider the example we've already dealt with, '<var>$a</var>
+= 5'. It's easy to see that there are two values involved here, the value of
+the integer constant '5', and the value of <var>$a</var> which is being updated
+to 5 as well. But the truth is that there's one additional value involved here,
+and that's the value of the assignment itself. The assignment itself evaluates
+to the assigned value, in this case 5. In practice, it means that '<var>$a</var>
+= 5', regardless of what it does, is an expression with the value 5. Thus,
+writing something like '<var>$b</var> = (<var>$a</var> = 5)' is like writing '<var>$a</var>
+= 5; <var>$b</var> = 5;' (a semicolon marks the end of a statement). Since
+assignments are parsed in a right to left order, you can also write '<var>$b</var>
+= <var>$a</var> = 5'. </p>
+
+<p class=simpara>Another good example of expression orientation is pre- and
+post-increment and decrement. Users of PHP and many other languages may be
+familiar with the notation of <em>variable++</em> and <em>variable--</em>.
+These are <a href="http://php.net/manual/en/language.operators.increment.php">increment
+and decrement operators</a>. In PHP, like in C, there are two types of
+increment - pre-increment and post-increment. Both pre-increment and
+post-increment essentially increment the variable, and the effect on the
+variable is identical. The difference is with the value of the increment
+expression. Pre-increment, which is written '++<var>$variable</var>', evaluates
+to the incremented value (PHP increments the variable before reading its value,
+thus the name 'pre-increment'). Post-increment, which is written '<var>$variable</var>++'
+evaluates to the original value of $variable, before it was incremented (PHP
+increments the variable after reading its value, thus the name
+'post-increment'). </p>
+
+<p class=simpara>A very common type of expressions are <a
+href="http://php.net/manual/en/language.operators.comparison.php">comparison</a>
+expressions. These expressions evaluate to either <code><b><span
+style='font-size:10.0pt'>FALSE</span></b></code> or <code><b><span
+style='font-size:10.0pt'>TRUE</span></b></code>. PHP supports &gt; (bigger
+than), &gt;= (bigger than or equal to), == (equal), != (not equal), &lt;
+(smaller than) and &lt;= (smaller than or equal to). The language also supports
+a set of strict equivalence operators: === (equal to and same type) and !==
+(not equal to or not same type). These expressions are most commonly used
+inside conditional execution, such as <em>if</em> statements. </p>
+
+<p class=simpara>The last example of expressions we'll deal with here is
+combined operator-assignment expressions. You already know that if you want to
+increment <var>$a</var> by 1, you can simply write '<var>$a</var>++' or '++<var>$a</var>'.
+But what if you want to add more than one to it, for instance 3? You could
+write '<var>$a</var>++' multiple times, but this is obviously not a very
+efficient or comfortable way. A much more common practice is to write '<var>$a</var>
+= <var>$a</var> + 3'. '<var>$a</var> + 3' evaluates to the value of <var>$a</var>
+plus 3, and is assigned back into <var>$a</var>, which results in incrementing <var>$a</var>
+by 3. In PHP, as in several other languages like C, you can write this in a
+shorter way, which with time would become clearer and quicker to understand as
+well. Adding 3 to the current value of <var>$a</var> can be written '<var>$a</var>
++= 3'. This means exactly &quot;take the value of <var>$a</var>, add 3 to it,
+and assign it back into <var>$a</var>&quot;. In addition to being shorter and
+clearer, this also results in faster execution. The value of '<var>$a</var> +=
+3', like the value of a regular assignment, is the assigned value. Notice that
+it is NOT 3, but the combined value of <var>$a</var> plus 3 (this is the value
+that's assigned into <var>$a</var>). Any two-place operator can be used in this
+operator-assignment mode, for example '<var>$a</var> -= 5' (subtract 5 from the
+value of <var>$a</var>), '<var>$b</var> *= 7' (multiply the value of <var>$b</var>
+by 7), etc. </p>
+
+<p class=para>There is one more expression that may seem odd if you haven't
+seen it in other languages, the ternary conditional operator: </p>
+
+<p class=MsoNormal><code><span style='font-size:10.0pt;color:#0000BB'>&lt;?php</span></code><span
+style='font-size:10.0pt;font-family:"Courier New";color:#0000BB'><br>
+<code>$first&nbsp;</code></span><code><span style='font-size:10.0pt;color:#007700'>?&nbsp;</span></code><code><span
+style='font-size:10.0pt;color:#0000BB'>$second&nbsp;</span></code><code><span
+style='font-size:10.0pt;color:#007700'>:&nbsp;</span></code><code><span
+style='font-size:10.0pt;color:#0000BB'>$third</span></code><span
+style='font-size:10.0pt;font-family:"Courier New";color:#0000BB'><br>
+<code>?&gt;</code></span><code><span style='font-size:10.0pt;color:black'> </span></code></p>
+
+<p class=para>If the value of the first subexpression is <code><b><span
+style='font-size:10.0pt'>TRUE</span></b></code> (non-zero), then the second
+subexpression is evaluated, and that is the result of the conditional
+expression. Otherwise, the third subexpression is evaluated, and that is the
+value. </p>
+
+<p class=para>The following example should help you understand pre- and
+post-increment and expressions in general a bit better: </p>
+
+<p class=MsoNormal><code><span style='font-size:10.0pt;color:#0000BB'>&lt;?php</span></code><span
+style='font-size:10.0pt;font-family:"Courier New";color:#0000BB'><br>
+</span><code><span style='font-size:10.0pt;color:#007700'>function&nbsp;</span></code><code><span
+style='font-size:10.0pt;color:#0000BB'>double</span></code><code><span
+style='font-size:10.0pt;color:#007700'>(</span></code><code><span
+style='font-size:10.0pt;color:#0000BB'>$i</span></code><code><span
+style='font-size:10.0pt;color:#007700'>)</span></code><span style='font-size:
+10.0pt;font-family:"Courier New";color:#007700'><br>
+<code>{</code><br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</code></span><code><span
+style='font-size:10.0pt;color:#0000BB'>$i</span></code><code><span
+style='font-size:10.0pt;color:#007700'>*</span></code><code><span
+style='font-size:10.0pt;color:#0000BB'>2</span></code><code><span
+style='font-size:10.0pt;color:#007700'>;</span></code><span style='font-size:
+10.0pt;font-family:"Courier New";color:#007700'><br>
+<code>}</code><br>
+</span><code><span style='font-size:10.0pt;color:#0000BB'>$b&nbsp;</span></code><code><span
+style='font-size:10.0pt;color:#007700'>=&nbsp;</span></code><code><span
+style='font-size:10.0pt;color:#0000BB'>$a&nbsp;</span></code><code><span
+style='font-size:10.0pt;color:#007700'>=&nbsp;</span></code><code><span
+style='font-size:10.0pt;color:#0000BB'>5</span></code><code><span
+style='font-size:10.0pt;color:#007700'>;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></code><code><span
+style='font-size:10.0pt;color:#FF8000'>/*&nbsp;assign&nbsp;the&nbsp;value&nbsp;five&nbsp;into&nbsp;the&nbsp;variable&nbsp;$a&nbsp;and&nbsp;$b&nbsp;*/</span></code><span
+style='font-size:10.0pt;font-family:"Courier New";color:#FF8000'><br>
+</span><code><span style='font-size:10.0pt;color:#0000BB'>$c&nbsp;</span></code><code><span
+style='font-size:10.0pt;color:#007700'>=&nbsp;</span></code><code><span
+style='font-size:10.0pt;color:#0000BB'>$a</span></code><code><span
+style='font-size:10.0pt;color:#007700'>++;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></code><code><span
+style='font-size:10.0pt;color:#FF8000'>/*&nbsp;post-increment,&nbsp;assign&nbsp;original&nbsp;value&nbsp;of&nbsp;$a&nbsp;</span></code><span
+style='font-size:10.0pt;font-family:"Courier New";color:#FF8000'><br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(5)&nbsp;to&nbsp;$c&nbsp;*/</code><br>
+</span><code><span style='font-size:10.0pt;color:#0000BB'>$e&nbsp;</span></code><code><span
+style='font-size:10.0pt;color:#007700'>=&nbsp;</span></code><code><span
+style='font-size:10.0pt;color:#0000BB'>$d&nbsp;</span></code><code><span
+style='font-size:10.0pt;color:#007700'>=&nbsp;++</span></code><code><span
+style='font-size:10.0pt;color:#0000BB'>$b</span></code><code><span
+style='font-size:10.0pt;color:#007700'>;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></code><code><span
+style='font-size:10.0pt;color:#FF8000'>/*&nbsp;pre-increment,&nbsp;assign&nbsp;the&nbsp;incremented&nbsp;value&nbsp;of&nbsp;</span></code><span
+style='font-size:10.0pt;font-family:"Courier New";color:#FF8000'><br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$b&nbsp;(6)&nbsp;to&nbsp;$d&nbsp;and&nbsp;$e&nbsp;*/</code><br>
+<br>
+<code>/*&nbsp;at&nbsp;this&nbsp;point,&nbsp;both&nbsp;$d&nbsp;and&nbsp;$e&nbsp;are&nbsp;equal&nbsp;to&nbsp;6&nbsp;*/</code><br>
+<br>
+</span><code><span style='font-size:10.0pt;color:#0000BB'>$f&nbsp;</span></code><code><span
+style='font-size:10.0pt;color:#007700'>=&nbsp;</span></code><code><span
+style='font-size:10.0pt;color:#0000BB'>double</span></code><code><span
+style='font-size:10.0pt;color:#007700'>(</span></code><code><span
+style='font-size:10.0pt;color:#0000BB'>$d</span></code><code><span
+style='font-size:10.0pt;color:#007700'>++);&nbsp;&nbsp;</span></code><code><span
+style='font-size:10.0pt;color:#FF8000'>/*&nbsp;assign&nbsp;twice&nbsp;the&nbsp;value&nbsp;of&nbsp;$d&nbsp;before</span></code><span
+style='font-size:10.0pt;font-family:"Courier New";color:#FF8000'><br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;increment,&nbsp;2*6&nbsp;=&nbsp;12&nbsp;to&nbsp;$f&nbsp;*/</code><br>
+</span><code><span style='font-size:10.0pt;color:#0000BB'>$g&nbsp;</span></code><code><span
+style='font-size:10.0pt;color:#007700'>=&nbsp;</span></code><code><span
+style='font-size:10.0pt;color:#0000BB'>double</span></code><code><span
+style='font-size:10.0pt;color:#007700'>(++</span></code><code><span
+style='font-size:10.0pt;color:#0000BB'>$e</span></code><code><span
+style='font-size:10.0pt;color:#007700'>);&nbsp;&nbsp;</span></code><code><span
+style='font-size:10.0pt;color:#FF8000'>/*&nbsp;assign&nbsp;twice&nbsp;the&nbsp;value&nbsp;of&nbsp;$e&nbsp;after</span></code><span
+style='font-size:10.0pt;font-family:"Courier New";color:#FF8000'><br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;increment,&nbsp;2*7&nbsp;=&nbsp;14&nbsp;to&nbsp;$g&nbsp;*/</code><br>
+</span><code><span style='font-size:10.0pt;color:#0000BB'>$h&nbsp;</span></code><code><span
+style='font-size:10.0pt;color:#007700'>=&nbsp;</span></code><code><span
+style='font-size:10.0pt;color:#0000BB'>$g&nbsp;</span></code><code><span
+style='font-size:10.0pt;color:#007700'>+=&nbsp;</span></code><code><span
+style='font-size:10.0pt;color:#0000BB'>10</span></code><code><span
+style='font-size:10.0pt;color:#007700'>;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></code><code><span
+style='font-size:10.0pt;color:#FF8000'>/*&nbsp;first,&nbsp;$g&nbsp;is&nbsp;incremented&nbsp;by&nbsp;10&nbsp;and&nbsp;ends&nbsp;with&nbsp;the&nbsp;</span></code><span
+style='font-size:10.0pt;font-family:"Courier New";color:#FF8000'><br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;value&nbsp;of&nbsp;24.&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;assignment&nbsp;(24)&nbsp;is&nbsp;</code><br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;then&nbsp;assigned&nbsp;into&nbsp;$h,&nbsp;and&nbsp;$h&nbsp;ends&nbsp;with&nbsp;the&nbsp;value&nbsp;</code><br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;of&nbsp;24&nbsp;as&nbsp;well.&nbsp;*/</code><br>
+</span><code><span style='font-size:10.0pt;color:#0000BB'>?&gt;</span></code><code><span
+style='font-size:10.0pt;color:black'> </span></code></p>
+
+<p class=simpara>Some expressions can be considered as statements. In this
+case, a statement has the form of '<em>expr ;</em>' that is, an expression
+followed by a semicolon. In <em>'$b = $a = 5;'</em>, <em>'$a = 5'</em> is a
+valid expression, but it's not a statement by itself. <em>'$b = $a = 5;'</em> however
+is a valid statement. </p>
+
+<p class=simpara>One last thing worth mentioning is the truth value of
+expressions. In many events, mainly in conditional execution and loops, you're
+not interested in the specific value of the expression, but only care about
+whether it means <code><b><span style='font-size:10.0pt'>TRUE</span></b></code>
+or <code><b><span style='font-size:10.0pt'>FALSE</span></b></code>. The
+constants <code><b><span style='font-size:10.0pt'>TRUE</span></b></code> and <code><b><span
+style='font-size:10.0pt'>FALSE</span></b></code> (case-insensitive) are the two
+possible boolean values. When necessary, an expression is automatically
+converted to boolean. See the <a
+href="http://php.net/manual/en/language.types.type-juggling.php#language.types.typecasting">section
+about type-casting</a> for details about how. </p>
+
+<p class=simpara>PHP provides a full and powerful implementation of
+expressions, and documenting it entirely goes beyond the scope of this manual.
+The above examples should give you a good idea about what expressions are and
+how you can construct useful expressions. Throughout the rest of this manual
+we'll write <var>expr</var> to indicate any valid PHP expression. </p>
+
+<p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+
+</div>
+
+</body>
+
+</html>

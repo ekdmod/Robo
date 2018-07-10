@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/relative_layout"
+    android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+    <ExpandableListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/expandableListView"
+        android:layout_alignParentRight="false"
+        android:layout_above="@+id/editText"
+        android:overScrollFooter="@color/Blue"
+        android:overScrollHeader="@color/Blue"
+        android:layout_alignParentTop="false"
+        android:background="@color/Green" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        android:imeOptions="actionSearch|flagNoEnterAction"
+        android:layout_toLeftOf="@+id/editTextSearch"
+        android:layout_toStartOf="@+id/editTextSearch"
+        android:layout_alignParentTop="true"
+        android:layout_alignBottom="@+id/speech" />
+
+    <ImageButton
+        android:layout_width="@android:dimen/app_icon_size"
+        android:layout_height="@android:dimen/app_icon_size"
+        android:id="@+id/editTextSearch"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentBottom="false"
+        android:layout_alignWithParentIfMissing="false"
+        android:baselineAlignBottom="false"
+        android:src="@drawable/ic_1" />
+
+    <ImageButton
+        android:layout_width="@android:dimen/app_icon_size"
+        android:layout_height="@android:dimen/app_icon_size"
+        android:id="@+id/speech"
+        android:background="@drawable/voice_search"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentLeft="false"
+        android:baselineAlignBottom="false"
+        android:layout_below="@+id/editTextSearch" />
+
+</RelativeLayout>

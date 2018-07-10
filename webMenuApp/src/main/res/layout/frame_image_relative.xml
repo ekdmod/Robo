@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="5dp" >
+    
+    <ImageView 
+        android:id="@id/image_menu"
+        android:background="#50333334"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/help" />
+    
+    <View
+        android:id="@+id/background_item"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="#50333334" />
+
+    <TextView
+        android:id="@id/text_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:textSize="@dimen/abc_text_size_menu_material"
+        android:textStyle="normal"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentStart="false"
+        android:textIsSelectable="false"
+        android:singleLine="false"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/icon" />
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="@dimen/abc_dropdownitem_icon_width"
+        android:layout_height="@dimen/abc_dropdownitem_icon_width"
+        android:contentDescription="@string/about"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignWithParentIfMissing="false"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="false"
+        android:layout_centerVertical="true"
+        android:padding="@dimen/candidate_vertical_padding" />
+
+</RelativeLayout>

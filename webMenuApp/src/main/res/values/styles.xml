@@ -1,0 +1,248 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" >
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light" tools:ignore="NewApi" >
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+        <item name="android:actionOverflowButtonStyle">@style/ActionButtonOverflow</item>
+        <item name="actionOverflowButtonStyle">@style/ActionButtonOverflow</item>
+    </style>
+
+    <style name="ActionButtonOverflow" parent="Base.Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:src">@drawable/more_info_page_1</item>
+    </style>
+
+    <style name="BaseTheme" parent="Theme.AppCompat" tools:ignore="NewApi">
+        <item name="android:actionOverflowButtonStyle">@style/ActionButtonOverflow</item>
+        <item name="actionOverflowButtonStyle">@style/ActionButtonOverflow</item>
+        <item name="android:actionBarStyle" tools:ignore="NewApi">@style/TransparentActionBarTheme</item>
+        <item name="actionBarStyle">@style/LightActionBar</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <!-- the theme applied to the application or activity -->
+    <style name="TransparentBar" parent="Theme.AppCompat" tools:ignore="NewApi">
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:actionOverflowButtonStyle">@style/ActionButtonOverflow</item>
+        <item name="actionOverflowButtonStyle">@style/ActionButtonOverflow</item>
+        <item name="android:actionBarStyle" tools:ignore="NewApi">@style/TransparentActionBarTheme</item>
+        <item name="actionBarStyle">@style/TransparentActionBarTheme</item>
+    </style>
+
+    <style name="ThemeRed" parent="Base.Theme.AppCompat.Light" tools:ignore="NewApi">
+        <item name="android:actionOverflowButtonStyle">@style/ActionButtonOverflow</item>
+        <item name="actionOverflowButtonStyle">@style/ActionButtonOverflow</item>
+        <item name="android:actionBarStyle" tools:ignore="NewApi">@style/LightActionBar</item>
+        <item name="actionBarStyle">@style/LightActionBar</item>
+        <item name="android:editTextStyle">@style/Widget.AppCompat.EditText</item>
+        <item name="android:editTextBackground">@drawable/abc_edit_text_material</item>
+        <item name="editTextBackground">@drawable/abc_edit_text_material</item>
+        <item name="android:editTextColor">?android:attr/textColorPrimary</item>
+        <item name="editTextColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="ThemeLight" parent="Base.Theme.AppCompat.Light" tools:ignore="NewApi">
+        <item name="android:actionOverflowButtonStyle">@style/ActionButtonOverflow</item>
+        <item name="actionOverflowButtonStyle">@style/ActionButtonOverflow</item>
+        <item name="android:actionBarStyle" tools:ignore="NewApi">@style/LightActionBar</item>
+        <item name="actionBarStyle">@style/LightActionBar</item>
+        <item name="android:editTextStyle">@style/Widget.AppCompat.EditText</item>
+        <item name="android:editTextBackground">@drawable/abc_edit_text_material</item>
+        <item name="editTextBackground">@drawable/abc_edit_text_material</item>
+        <item name="android:editTextColor">?android:attr/textColorPrimary</item>
+        <item name="editTextColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="ThemeYellow" parent="Base.Theme.AppCompat.Light" tools:ignore="NewApi">
+        <item name="android:actionOverflowButtonStyle">@style/ActionButtonOverflow</item>
+        <item name="android:colorBackground">@color/Yellow</item>
+        <item name="android:windowBackground">@color/Yellow</item>
+        <item name="actionOverflowButtonStyle">@style/ActionButtonOverflow</item>
+        <item name="android:actionBarStyle" tools:ignore="NewApi">@style/LightActionBar</item>
+        <item name="actionBarStyle">@style/LightActionBar</item>
+        <item name="android:editTextStyle">@style/Widget.AppCompat.EditText</item>
+        <item name="android:editTextBackground">@drawable/abc_edit_text_material</item>
+        <item name="editTextBackground">@drawable/abc_edit_text_material</item>
+        <item name="android:editTextColor">?android:attr/textColorPrimary</item>
+        <item name="editTextColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="ThemeGreen" parent="Base.Theme.AppCompat.Light" tools:ignore="NewApi">
+        <item name="android:actionOverflowButtonStyle">@style/ActionButtonOverflow</item>
+        <item name="actionOverflowButtonStyle">@style/ActionButtonOverflow</item>
+        <item name="android:actionBarStyle" tools:ignore="NewApi">@style/LightActionBar</item>
+        <item name="actionBarStyle">@style/LightActionBar</item>
+        <item name="android:editTextStyle">@style/Widget.AppCompat.EditText</item>
+        <item name="android:editTextBackground">@drawable/abc_edit_text_material</item>
+        <item name="editTextBackground">@drawable/abc_edit_text_material</item>
+        <item name="android:editTextColor">?android:attr/textColorPrimary</item>
+        <item name="editTextColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="ThemeBlue" parent="Base.Theme.AppCompat.Light" tools:ignore="NewApi">
+        <item name="android:actionOverflowButtonStyle">@style/ActionButtonOverflow</item>
+        <item name="android:colorBackground">@color/transparent_blue</item>
+        <item name="android:windowBackground">@color/blue</item>
+        <item name="actionOverflowButtonStyle">@style/ActionButtonOverflow</item>
+        <item name="android:actionBarStyle" tools:ignore="NewApi">@style/LightActionBar</item>
+        <item name="actionBarStyle">@style/LightActionBar</item>
+        <item name="android:editTextStyle">@style/Widget.AppCompat.EditText</item>
+        <item name="android:editTextBackground">@drawable/abc_edit_text_material</item>
+        <item name="editTextBackground">@drawable/abc_edit_text_material</item>
+        <item name="android:editTextColor">?android:attr/textColorPrimary</item>
+        <item name="editTextColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="ThemeNight" parent="Base.Theme.AppCompat.Light" tools:ignore="NewApi">
+        <item name="android:actionOverflowButtonStyle">@style/ActionButtonOverflow</item>
+        <item name="actionOverflowButtonStyle">@style/ActionButtonOverflow</item>
+        <item name="android:actionBarStyle" tools:ignore="NewApi">@style/LightActionBar</item>
+        <item name="actionBarStyle">@style/LightActionBar</item>
+        <item name="android:editTextStyle">@style/Widget.AppCompat.EditText</item>
+        <item name="android:editTextBackground">@drawable/abc_edit_text_material</item>
+        <item name="editTextBackground">@drawable/abc_edit_text_material</item>
+        <item name="android:editTextColor">?android:attr/textColorPrimary</item>
+        <item name="editTextColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="ThemeDarkYellow" parent="Base.Theme.AppCompat.Light" tools:ignore="NewApi">
+        <item name="android:actionOverflowButtonStyle">@style/ActionButtonOverflow</item>
+        <item name="actionOverflowButtonStyle">@style/ActionButtonOverflow</item>
+        <item name="android:actionBarStyle" tools:ignore="NewApi">@style/LightActionBar</item>
+        <item name="actionBarStyle">@style/LightActionBar</item>
+        <item name="android:editTextStyle">@style/Widget.AppCompat.EditText</item>
+        <item name="android:editTextBackground">@drawable/abc_edit_text_material</item>
+        <item name="editTextBackground">@drawable/abc_edit_text_material</item>
+        <item name="android:editTextColor">?android:attr/textColorPrimary</item>
+        <item name="editTextColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="ThemeWhite" parent="Base.Theme.AppCompat.Light" tools:ignore="NewApi">
+        <item name="android:actionOverflowButtonStyle">@style/ActionButtonOverflow</item>
+        <item name="actionOverflowButtonStyle">@style/ActionButtonOverflow</item>
+        <item name="android:actionBarStyle" tools:ignore="NewApi">@style/LightActionBar</item>
+        <item name="actionBarStyle">@style/LightActionBar</item>
+        <item name="android:editTextStyle">@style/Widget.AppCompat.EditText</item>
+        <item name="android:editTextBackground">@drawable/abc_edit_text_material</item>
+        <item name="editTextBackground">@drawable/abc_edit_text_material</item>
+        <item name="android:editTextColor">?android:attr/textColorPrimary</item>
+        <item name="editTextColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="ThemeBlack" parent="Base.Theme.AppCompat.Light.DarkActionBar" tools:ignore="NewApi">
+        <item name="android:actionOverflowButtonStyle">@style/ActionButtonOverflow</item>
+        <item name="actionOverflowButtonStyle">@style/ActionButtonOverflow</item>
+        <item name="android:actionBarStyle" tools:ignore="NewApi">@style/LightActionBar</item>
+        <item name="actionBarStyle">@style/LightActionBar</item>
+        <item name="android:editTextStyle">@style/Widget.AppCompat.EditText</item>
+        <item name="android:editTextBackground">@drawable/abc_edit_text_material</item>
+        <item name="editTextBackground">@drawable/abc_edit_text_material</item>
+        <item name="android:editTextColor">?android:attr/textColorPrimary</item>
+        <item name="editTextColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="ThemeDark" parent="Base.Theme.AppCompat.Light.DarkActionBar" tools:ignore="NewApi">
+        <item name="android:actionOverflowButtonStyle">@style/ActionButtonOverflow</item>
+        <item name="actionOverflowButtonStyle">@style/ActionButtonOverflow</item>
+        <item name="android:actionBarStyle" tools:ignore="NewApi">@style/DarkActionBar</item>
+        <item name="actionBarStyle">@style/DarkActionBar</item>
+    </style>
+
+    <style name="ThemeLast" parent="Theme.AppCompat" tools:ignore="NewApi">
+        <item name="android:actionOverflowButtonStyle">@style/ActionButtonOverflow</item>
+        <item name="actionOverflowButtonStyle">@style/ActionButtonOverflow</item>
+        <item name="android:actionBarStyle" tools:ignore="NewApi">@style/TransparentActionBarTheme</item>
+        <item name="actionBarStyle">@style/LightActionBar</item>
+    </style>
+
+    <style name="TransparentActionBarTheme" parent="Widget.AppCompat.ActionBar.Solid">
+        <item name="android:background">@color/Green</item>
+        <item name="background">@color/Green</item>
+    </style>
+    <style name="LightActionBar" parent="Widget.AppCompat.ActionBar.Solid">
+        <item name="android:background">@color/background_material_light</item>
+        <item name="background">@color/background_material_light</item>
+    </style>
+    <style name="DarkActionBar" parent="Widget.AppCompat.ActionBar.Solid">
+        <item name="android:background">@color/background_material_dark</item>
+        <item name="background">@color/background_material_dark</item>
+    </style>
+
+    <style name="ActionBarOverflowIcon" parent="Theme.AppCompat" tools:ignore="NewApi">
+        <item name="android:actionOverflowButtonStyle">@style/ActionButtonOverflow</item>
+    </style>
+    <style name="Normal" parent="@android:style/TextAppearance">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:typeface" >serif</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize" >22pt</item>
+        <item name="android:shadowDx" >1.5</item>
+        <item name="android:shadowDy" >1.5</item>
+        <item name="android:shadowRadius" >1</item>
+        <item name="android:shadowColor" >#AAAAAA</item>
+    </style>
+    <style name="Small" parent="@android:style/TextAppearance.Small">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:typeface" >serif</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">12pt</item>
+        <item name="android:shadowDx" >1.5</item>
+        <item name="android:shadowDy" >1.5</item>
+        <item name="android:shadowRadius" >1</item>
+        <item name="android:shadowColor" >#AAAAAA</item>
+    </style>
+    <style name="Medium" parent="@android:style/TextAppearance.Medium">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:typeface" >serif</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">16pt</item>
+        <item name="android:shadowDx" >1.5</item>
+        <item name="android:shadowDy" >1.5</item>
+        <item name="android:shadowRadius" >1</item>
+        <item name="android:shadowColor" >#AAAAAA</item>
+    </style>
+    <style name="Big" parent="@android:style/TextAppearance.Large">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:typeface" >serif</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">28pt</item>
+        <item name="android:shadowDx" >1.5</item>
+        <item name="android:shadowDy" >1.5</item>
+        <item name="android:shadowRadius" >1</item>
+        <item name="android:shadowColor" >#AAAAAA</item>
+    </style>
+    <style name="CodeFont" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">#00FF00</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+    
+    <style name="Dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:background">#e5ffdd</item>
+    </style>
+
+    <style name="Widget" />
+
+    <style name="Widget.SampleMessage">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
+    </style>
+
+    <style name="Widget.SampleMessageTile">
+        <item name="android:background">@color/dim_foreground_material_light</item>
+        <item name="android:shadowColor">#7F000000</item>
+        <item name="android:shadowDy">-3.5</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+</resources>

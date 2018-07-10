@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"        
+        android:id="@+id/relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <TextView
+            android:id="@+id/settings_title_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="32sp"
+            android:layout_centerHorizontal="true" />
+	    <ImageView
+	        android:id="@+id/image_view"
+	        android:contentDescription="@string/img_description"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toLeftOf="@+id/settings_title_name"
+	        android:layout_centerVertical="true"
+	        android:layout_alignBottom="@+id/settings_title_name" />
+	<fragment
+	    android:id="@+id/settings_fragment"
+	    android:name="org.webmenu.level7.SettingsMenu$MenuViewFragment"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/settings_title_name" />
+	<fragment
+	    android:id="@+id/popUp_Fragment"
+	    android:name="org.webmenu.level7.SettingsMenu$PopUp"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent" />
+</RelativeLayout>
+<!-- From: file:/C:/Documents%20and%20Settings/EK/AndroidstudioProjects/WebMenuApp/webMenuApp/src/main/res/layout/options_menu_setting.xml -->

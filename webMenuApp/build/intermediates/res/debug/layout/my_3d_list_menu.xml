@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.webmenu.webmenuapp.Adapters.Rotating3DListMenuAdapter 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_item"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff" >
+    
+</org.webmenu.webmenuapp.Adapters.Rotating3DListMenuAdapter>
+<!-- From: file:/C:/Documents%20and%20Settings/EK/AndroidstudioProjects/WebMenuApp/webMenuApp/src/main/res/layout/my_3d_list_menu.xml -->

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/grid_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:verticalSpacing="10dp"
+    android:horizontalSpacing="10dp"
+    android:gravity="center_horizontal"  />
+<!-- From: file:/C:/Documents%20and%20Settings/EK/AndroidstudioProjects/WebMenuApp/webMenuApp/src/main/res/layout/settings_menu_grid.xml -->

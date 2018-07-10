@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:maxLevel="0" android:drawable="@drawable/future_of_business" />
+    <item android:maxLevel="1" android:drawable="@drawable/solutions" />
+    <item android:maxLevel="2" android:drawable="@drawable/a_help_2" />
+    <item android:maxLevel="3" android:drawable="@drawable/aaa3" />
+    <item android:maxLevel="4" android:drawable="@drawable/aaa8" />
+</level-list><!-- From: file:/C:/Documents%20and%20Settings/EK/AndroidstudioProjects/WebMenuApp/webMenuApp/src/main/res/drawable-hdpi/front_side_menu_drawable_list.xml -->

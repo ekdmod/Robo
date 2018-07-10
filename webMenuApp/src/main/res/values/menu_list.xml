@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="grid_menu_item_names">
+    	<item>About us</item>
+		<item>Guide</item>
+		<item>Support</item>
+		<item>Products</item>
+		<item>How to find us</item>
+		<item>Help</item>
+		<item>Settings</item>
+		<item>Technology description</item>
+	</string-array>
+    <string-array name="php_knowledge_menu_id">
+        <item>what_is_php</item>
+        <item>what_php_can_do</item>
+        <item>java_and_php</item>
+        <item>csharp_and_php</item>
+        <item>cplus_and_php</item>
+        <item>html_and_php</item>
+        <item>php_and_apache</item>
+        <item>php_error_controls</item>
+        <item>php_server_constants</item>
+        <item>php_input_checking</item>
+        <item>php_comparision</item>
+        <item>php_operators</item>
+        <item>php_passwords</item>
+        <item>php_constants</item>
+        <item>php_scope</item>
+    </string-array>
+    <string-array name="php_knowledge_menu_titles">
+        <item>What is PHP ?</item>
+        <item>What PHP can do ?</item>
+        <item>PHP and Java</item>
+        <item>PHP and C#</item>
+        <item>PHP and C++</item>
+        <item>PHP and HTML</item>
+        <item>Configuring PHP for Apache Web Services</item>
+        <item>Errors control in PHP</item>
+        <item>Server constants in PHP</item>
+        <item>PHP input check and security</item>
+        <item>PHP operators</item>
+        <item>PHP passwords generators</item>
+        <item>PHP constants</item>
+        <item>Comparising PHP</item>
+        <item>PHP scope</item>
+    </string-array>
+    <string-array name="php_knowledge_menu_summary">
+        <item>What is PHP summary</item>
+        <item>What PHP can do summary</item>
+        <item>PHP and Java summary</item>
+        <item>PHP and C# summary</item>
+        <item>PHP and C++ summary</item>
+        <item>PHP and HTML summary</item>
+        <item>Configuring PHP for Apache Web Services summary</item>
+        <item>Errors control in PHP summary</item>
+        <item>Server constants in PHP summary</item>
+        <item>PHP input check and security summary</item>
+        <item>PHP operators summary</item>
+        <item>PHP passwords generators summary</item>
+        <item>PHP constants summary</item>
+        <item>Comparising PHP summary</item>
+        <item>PHP scope summary</item>
+    </string-array>
+    <string-array name="php_knowledge_menu_files">
+        <item>file://resources/data/html/php/what is php ? .html</item>
+        <item>file://resources/data/html/php/What PHP can do ? .html</item>
+        <item>file://resources/data/html/php/PHP and Java .html</item>
+        <item>file://resources/data/html/php/PHP and c# .html</item>
+        <item>file://resources/data/html/php/PHP and C++ .html</item>
+        <item>file://resources/data/html/php/PHP and HTML .html</item>
+        <item>file://resources/data/html/php/Configuring PHP for Apache Web Services .html</item>
+        <item>file://resources/data/html/php/Errors control in PHP .html</item>
+        <item>file://resources/data/html/php/Server constants in PHP .html</item>
+        <item>file://resources/data/html/php/PHP input check and security .html</item>
+        <item>file://resources/data/html/php/PHP operators .html</item>
+        <item>file://resources/data/html/php/PHP passwords generators .html</item>
+        <item>file://resources/data/html/php/PHP constants .html</item>
+        <item>file://resources/data/html/php/comparising PHP .html</item>
+        <item>file://resources/data/html/php/PHP scope .html</item>
+    </string-array>
+    <string-array name="cplus_knowledge_menu_id">
+        <item>cplus</item>
+        <item>cplus_manual</item>
+        <item>cplus_beginning</item>
+        <item>cplus_forms</item>
+        <item>cplus_online_info</item>
+        <item>cplus_data</item>
+        <item>ajax_cplus</item>
+        <item>cplus_resource</item>
+    </string-array>
+    <string-array name="cplus_knowledge_menu_titles">
+        <item>About c++</item>
+        <item>C++ practice</item>
+        <item>Begin programming in C++</item>
+        <item>C-Plus forms</item>
+        <item>Data handling in C-Plus</item>
+        <item>C plus and ajax</item>
+        <item>Resources in cplus</item>
+        <item>Manuals</item>
+    </string-array>
+    <string-array name="cplus_knowledge_menu_summary">
+        <item>About C-Plus</item>
+        <item>About C-Plus practice</item>
+        <item>C-Plus for beginners</item>
+        <item>C-Plus forms</item>
+        <item>C++ data handling</item>
+        <item>About ajax usage</item>
+        <item>How to use resources in C++ ?</item>
+        <item>Manuals</item>
+    </string-array>
+    <string-array name="cplus_knowledge_menu_files">
+        <item>file://resources/data/html/cpp/What is C++ ? .html</item>
+        <item>file://resources/data/html/cpp/Where C++ is used ? .html</item>
+        <item>file://resources/data/html/cpp/How to begin programming in C++ ? .html</item>
+        <item>file://resources/data/html/cpp/C++ forms .html</item>
+        <item>file://resources/data/html/cpp/C++ data handling .html</item>
+        <item>file://resources/data/html/cpp/Ajax framework for C++ .html</item>
+        <item>file://resources/data/html/cpp/Resources for c++ .html</item>
+        <item>file://resources/data/html/cpp/C++ online info lib .html</item>
+    </string-array>
+    <string-array name="csharp_knowledge_menu_id">
+        <item>about_scharp</item>
+        <item>csharp_usages</item>
+        <item>csharp_for_beginner</item>
+        <item>csharp_forms</item>
+        <item>csharp_data</item>
+        <item>ajax_csharp</item>
+        <item>csharp_res</item>
+        <item>csharp_manuals</item>
+    </string-array>
+    <string-array name="csharp_knowledge_menu_titles">
+        <item>About c++</item>
+        <item>C++ practice</item>
+        <item>Begin programming in C++</item>
+        <item>C-Plus forms</item>
+        <item>Data handling in C-Plus</item>
+        <item>C plus and ajax</item>
+        <item>Resources in cplus</item>
+        <item>Manuals</item>
+    </string-array>
+    <string-array name="csharp_knowledge_menu_summary">
+        <item>About C-Plus</item>
+        <item>About C-Plus practice</item>
+        <item>C-Plus for beginners</item>
+        <item>C-Plus forms</item>
+        <item>C++ data handling</item>
+        <item>About ajax usage</item>
+        <item>How to use resources in C++ ?</item>
+        <item>Manuals</item>
+    </string-array>
+    <string-array name="csharp_knowledge_menu_files">
+        <item>file://resources/data/html/cpp/What is C++ ? .html</item>
+        <item>file://resources/data/html/cpp/Where C++ is used ? .html</item>
+        <item>file://resources/data/html/cpp/How to begin programming in C++ ? .html</item>
+        <item>file://resources/data/html/cpp/C++ forms .html</item>
+        <item>file://resources/data/html/cpp/C++ data handling .html</item>
+        <item>file://resources/data/html/cpp/Ajax framework for C++ .html</item>
+        <item>file://resources/data/html/cpp/Resources for c++ .html</item>
+        <item>file://resources/data/html/cpp/C++ online info lib .html</item>
+    </string-array>
+    <string-array name="java_knowledge_menu_id">
+        <item>java</item>
+        <item>java_performance</item>
+        <item>java_classes</item>
+        <item>java_virtual_machine</item>
+        <item>java_compatibility</item>
+    </string-array>
+    <string-array name="java_knowledge_menu_titles">
+        <item>Why i need java ?</item>
+        <item>Java performance</item>
+        <item>Java classes</item>
+        <item>Java virtual machine</item>
+        <item>Java compatibility for all platforms</item>
+    </string-array>
+    <string-array name="java_knowledge_menu_summary">
+        <item>Why i need java summary</item>
+        <item>Java summary for performance</item>
+        <item>Java classes summary</item>
+        <item>About java virtual machine</item>
+        <item>About java compatibility for all platforms</item>
+    </string-array>
+    <string-array name="java_knowledge_menu_files">
+        <item>file://resources/data/html/java/Why i need java ? .html</item>
+        <item>file://resources/data/html/java/Java for performance .html</item>
+        <item>file://resources/data/html/java/Java classes .html</item>
+        <item>file://resources/data/html/java/Java virtual machine .html</item>
+        <item>file://resources/data/html/java/Java compatibility for all platforms .html</item>
+    </string-array>
+    <string-array name="android_knowledge_menu_id">
+        <item>android</item>
+        <item>android_tv</item>
+        <item>android_sdk</item>
+        <item>google_voice_service</item>
+        <item>android_java_compatibility</item>
+    </string-array>
+    <string-array name="android_knowledge_menu_titles">
+        <item>Android</item>
+        <item>Android TV</item>
+        <item>Android SDK</item>
+        <item>Android voice api</item>
+        <item>Android compatibility with java</item>
+    </string-array>
+    <string-array name="android_knowledge_menu_summary">
+        <item>Summary about android</item>
+        <item>About Tv and android</item>
+        <item>Android SDK comparision</item>
+        <item>Android voice api</item>
+        <item>Android with Java summary</item>
+    </string-array>
+    <string-array name="android_knowledge_menu_files">
+        <item>file://resources/data/html/android/Android phone.html</item>
+        <item>file://resources/data/html/android/Android TV.html</item>
+        <item>file://resources/data/html/android/Google SDK.html</item>
+        <item>file://resources/data/html/android/Android speech apis.html</item>
+        <item>file://resources/data/html/android/Java - Android compatibility.html</item>
+    </string-array>
+	<array name="grid_menu_item_background">
+	    <item>@drawable/hss</item>
+		<item>@drawable/start_item</item>
+		<item>@drawable/p_trak</item>
+		<item>@drawable/hlr</item>
+		<item>@drawable/hss</item>
+		<item>@drawable/start_item</item>
+		<item>@drawable/sgs</item>
+		<item>@drawable/profito_it</item>
+	</array>
+	<array name="grid_menu_item_icons">
+	    <item>@drawable/hss</item>
+		<item>@drawable/start_item</item>
+		<item>@drawable/p_trak</item>
+		<item>@drawable/hlr</item>
+		<item>@drawable/hss</item>
+		<item>@drawable/start_item</item>
+		<item>@drawable/sgs</item>
+		<item>@drawable/profito_it</item>
+	</array>
+	<integer-array name="grid_menu_background">
+	    <item>@drawable/hss</item>
+		<item>@drawable/start_item</item>
+		<item>@drawable/p_trak</item>
+		<item>@drawable/hlr</item>
+		<item>@drawable/hss</item>
+		<item>@drawable/start_item</item>
+		<item>@drawable/sgs</item>
+	</integer-array>
+	<integer-array name="grid_menu_icons">
+	    <item>@drawable/hss</item>
+		<item>@drawable/start_item</item>
+		<item>@drawable/p_trak</item>
+		<item>@drawable/hlr</item>
+		<item>@drawable/hss</item>
+		<item>@drawable/start_item</item>
+		<item>@drawable/sgs</item>
+	</integer-array>
+    <item type="drawable" name="php_knowledge_menu_icon">@drawable/violet_php_2</item>
+    <item type="drawable" name="android_knowledge_menu_icon">@drawable/android</item>
+    <item type="drawable" name="java_knowledge_menu_icon">@drawable/java</item>
+    <item type="drawable" name="cplus_knowledge_menu_icon">@drawable/c_plus_logo</item>
+    <item type="drawable" name="csharp_knowledge_menu_icon">@drawable/cplus_icon</item>
+    <string-array name="php_knowledge_menu">
+        <item>file://resources/data/html/php/what is php ? .html--what_is_php--What is PHP ?--What is PHP summary</item>
+        <item>file://resources/data/html/php/What PHP can do ? .html--what_php_can_do--What PHP can do ?--What PHP can do summary</item>
+        <item>file://resources/data/html/php/PHP and Java .html--java_and_php--PHP and Java--PHP and Java summary</item>
+        <item>file://resources/data/html/php/PHP and c# .html--csharp_and_php--PHP and C#--PHP and C# summary</item>
+        <item>file://resources/data/html/php/PHP and C++ .html--cplus_and_php--PHP and C++--PHP and C++ summary</item>
+        <item>file://resources/data/html/php/PHP and HTML .html--html_and_php--PHP and HTML--PHP and HTML summary</item>
+        <item>file://resources/data/html/php/Configuring PHP for Apache Web Services .html--php_and_apache--Configuring PHP for Apache Web Services--Configuring PHP for Apache Web Services summary</item>
+        <item>file://resources/data/html/php/Errors control in PHP .html--php_error_control--php_error_controls--Errors control in PHP--Errors control in PHP summary</item>
+        <item>file://resources/data/html/php/Server constants in PHP .html--php_server_constants--Server constants in PHP--Server constants in PHP summary</item>
+        <item>file://resources/data/html/php/PHP input check and security .html--php_input_checking--PHP input check and security--PHP input check and security summary</item>
+        <item>file://resources/data/html/php/PHP operators .html--php_operators--PHP operators--PHP operators summary</item>
+        <item>file://resources/data/html/php/PHP passwords generators .html--php_passwords--PHP passwords generators--PHP passwords generators summary</item>
+        <item>file://resources/data/html/php/PHP constants .html--php_constants--PHP constants--PHP constants summary</item>
+        <item>file://resources/data/html/php/comparissing in PHP .html--php_comparissing--Comparising PHP--Comparising PHP summary</item>
+        <item>file://resources/data/html/php/PHP scope .html--php_scope--PHP scope--PHP scope summary</item>
+    </string-array>
+    <string-array name="cplus_knowledge_menu">
+        <item>file://resources/data/html/cpp/What is C++ ? .html--about_cplus--What is C++ ?--About C-Plus</item>
+        <item>file://resources/data/html/cpp/Where C++ is used ? .html--practice_in_cplus--Where C++ is used ?--About C-Plus practice</item>
+        <item>file://resources/data/html/cpp/How to begin programming in C++ ? .html--cplus_programming_for_beginner--How to begin programming C++ ?--C-Plus for beginners</item>
+        <item>file://resources/data/html/cpp/C++ forms .html--cplus_forms--C-Plus forms--C-Plus forms</item>
+        <item>file://resources/data/html/cpp/C++ data handling .html--data_handling_in_cplus--C++ data handling--Data handling in C-Plus--C++ data handling</item>
+        <item>file://resources/data/html/cpp/Ajax framework for C++ .html--cplus_and_ajax--C plus and ajax--About ajax usage</item>
+        <item>file://resources/data/html/cpp/Resources for c++ .html--cplus_resources--Resources in cplus--How to use resources in C++ ?</item>
+        <item>file://resources/data/html/cpp/C++ online info lib .html--cplus_doc--Manuals--</item>
+    </string-array>
+    <string-array name="android_knowledge_menu">
+        <item>file://resources/data/html/android/Android phone.html--android--Android--Summary about android</item>
+        <item>file://resources/data/html/android/Android phone.html--android--Android--Summary about android</item>
+        <item>file://resources/data/html/android/Android phone.html--android--Android--Summary about android</item>
+        <item>file://resources/data/html/android/Android phone.html--android--Android--Summary about android</item>
+        <item>file://resources/data/html/android/Android phone.html--android--Android--Summary about android</item>
+        <item>file://resources/data/html/android/Android phone.html--android--Android--Summary about android</item>
+        <item>file://resources/data/html/android/Android phone.html--android--Android--Summary about android</item>
+        <item>file://resources/data/html/android/Android phone.html--android--Android--Summary about android</item>
+        <item>file://resources/data/html/android/Android phone.html--android--Android--Summary about android</item>
+        <item>file://resources/data/html/android/Android phone.html--android--Android--Summary about android</item>
+    </string-array>
+    <string-array name="java_knowledge_menu">
+        <item>file://resources/data/html/java/Java for performance .html--java_performance--Java performance--Java summary for performance</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>file://resources/data/html/java/Java classes .html--java_classes--Java classes--Java classes summary</item>
+        <item>file://resources/data/html/java/Java compatibility for all platforms .html--java_compatibility--About java compatibility for all platforms</item>
+        <item></item>
+        <item>file://resources/data/html/java/Why i need java ? .html--java--Why i need java ?--Why i need java summary</item>
+        <item>file://resources/data/html/java/Java virtual machine .html--java_virtual_machine--Java virtual machine--About java virtual machine</item>
+    </string-array>
+    <string-array name="scharp_knowledge_menu">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+</resources>

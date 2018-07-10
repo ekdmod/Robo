@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:drawable="@drawable/button_on_select" android:state_pressed="true" />
+    <item android:drawable="@drawable/button_on_select" android:state_selected="true" />
+    <item android:drawable="@drawable/button_on_deselect" />
+</selector>
+<!-- From: file:/C:/Documents%20and%20Settings/EK/AndroidstudioProjects/WebMenuApp/webMenuApp/src/main/res/drawable-hdpi/android_menu_selector.xml -->

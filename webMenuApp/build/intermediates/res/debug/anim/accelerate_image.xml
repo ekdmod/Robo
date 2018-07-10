@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:repeatCount="infinite"
+    android:repeatMode="restart"
+    android:shareInterpolator="false" >
+    <alpha
+        android:fromAlpha="0.2"
+        android:toAlpha="0.3" />
+    <scale
+        android:repeatCount="2"
+        android:duration="500"
+        android:fromXScale="0"
+        android:toXScale="1"
+        android:fromYScale="0"
+        android:toYScale="1"
+        android:pivotX="0"
+        android:pivotY="0" />
+    <translate
+        android:duration="500"
+        android:fromXDelta="0"
+        android:toXDelta="2"
+        android:fromYDelta="0"
+        android:toYDelta="2" />
+    <rotate
+        android:fromDegrees="0"
+        android:toDegrees="5"
+        android:pivotX="0"
+        android:pivotY="0" />
+    <set>
+    </set>
+</set>
+<!-- From: file:/C:/Documents%20and%20Settings/EK/AndroidstudioProjects/WebMenuApp/webMenuApp/src/main/res/anim/accelerate_image.xml -->

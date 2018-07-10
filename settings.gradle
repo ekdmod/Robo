@@ -1,0 +1,3 @@
+include ':satellitemenu', ':android-support-v4', ':androidsupportv7appcompat', ':android-support-v7_jar-appcompat', ':voiceimeutils'
+include ':webMenuApp'
+project(':androidsupportv7appcompat').projectDir = new File('android-support-v7-appcompat/androidsupportv7appcompat')

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+<corners
+    android:radius="18dp" />
+<gradient
+    android:angle="45"
+    android:centerX="1"
+    android:centerY="1"
+    android:centerColor="#12f6009a"
+    android:endColor="#10ef1a77"
+    android:gradientRadius="45"
+    android:startColor="#10f21af7"
+    android:type="sweep"
+    android:useLevel="true" />
+<solid
+    android:color="#19b5f467" />
+<stroke
+    android:width="18dp"
+    android:color="#8a0f0da2" />
+</shape>
+
+<!-- From: file:/C:/Documents%20and%20Settings/EK/AndroidstudioProjects/WebMenuApp/webMenuApp/src/main/res/drawable-hdpi/front_menu_shape_view.xml -->

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+	<PreferenceScreen
+        android:key="search_preferences"
+        android:title="@string/preferences_search_dialog"
+        android:icon="@drawable/sym_keyboard_search" >
+    </PreferenceScreen>
+    <PreferenceScreen
+	    android:key="about_preferences"
+	    android:title="@string/about"
+	    android:icon="@drawable/about_5" >
+	    <Preference 
+	        android:title="@string/about"
+	        android:summary="@string/about_summary" >
+	        <intent android:action="android.intent.action.VIEW"
+                    android:data="file:///android_asset/" />
+	    </Preference>
+	</PreferenceScreen>
+    <ListPreference
+        android:key="icons_preferences"
+        android:title="Icons preferences"
+        android:summary="Modify icons settings"
+        android:entries="@array/icons_setting_titles"
+        android:entryValues="@array/icons_setting_values"
+        android:defaultValue="@string/icons_default"
+    />
+	<ListPreference
+	    android:key="theme_preferences"
+		android:title="@string/style"
+        android:summary="@string/style_summary"
+		android:entries="@array/style_setting_titles"
+		android:entryValues="@array/style_setting_values"
+		android:defaultValue="@string/style_default_setting"
+	/>
+    <ListPreference
+        android:key="text_preferences"
+        android:title="@string/text_size"
+        android:summary="@string/text_size_summary"
+        android:entries="@array/font_size_settings_titles"
+        android:entryValues="@array/font_size_settings_values"
+        android:defaultValue="@string/font_size_default_setting"
+    />
+</PreferenceScreen>

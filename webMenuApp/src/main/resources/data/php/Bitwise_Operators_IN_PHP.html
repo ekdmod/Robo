@@ -1,0 +1,275 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1257">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 11">
+<meta name=Originator content="Microsoft Word 11">
+<link rel=File-List href="Bitwise%20Operators%20IN%20PHP_files/filelist.xml">
+<title>Bitwise Operators</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>EDEN</o:Author>
+  <o:LastAuthor>EDEN</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>1</o:TotalTime>
+  <o:Created>2015-02-21T14:09:00Z</o:Created>
+  <o:LastSaved>2015-02-21T14:09:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>292</o:Words>
+  <o:Characters>1666</o:Characters>
+  <o:Company>E</o:Company>
+  <o:Lines>13</o:Lines>
+  <o:Paragraphs>3</o:Paragraphs>
+  <o:CharactersWithSpaces>1955</o:CharactersWithSpaces>
+  <o:Version>11.9999</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+h2
+	{mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:2;
+	font-size:18.0pt;
+	font-family:"Times New Roman";}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+code
+	{font-family:"Courier New";
+	mso-ascii-font-family:"Courier New";
+	mso-fareast-font-family:"Times New Roman";
+	mso-hansi-font-family:"Courier New";
+	mso-bidi-font-family:"Courier New";}
+p.simpara, li.simpara, div.simpara
+	{mso-style-name:simpara;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.para, li.para, div.para
+	{mso-style-name:para;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+@page Section1
+	{size:612.0pt 792.0pt;
+	margin:27.0pt 36.0pt 26.95pt 27.0pt;
+	mso-header-margin:35.4pt;
+	mso-footer-margin:35.4pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]-->
+</head>
+
+<body lang=EN-US link=blue vlink=purple style='tab-interval:36.0pt'>
+
+<div class=Section1>
+
+<h2 align=center style='text-align:center'>Bitwise Operators</h2>
+
+<p class=simpara>Bitwise operators allow evaluation and manipulation of
+specific bits within an integer. </p>
+
+<table class=MsoNormalTable border=0 cellpadding=0 style='mso-cellspacing:1.5pt'>
+ <thead>
+  <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+   <td colspan=3 style='padding:.75pt .75pt .75pt .75pt'>
+   <p class=MsoNormal align=center style='text-align:center'><strong>Bitwise
+   Operators</strong></p>
+   </td>
+  </tr>
+  <tr style='mso-yfti-irow:1'>
+   <td style='padding:.75pt .75pt .75pt .75pt'>
+   <p class=MsoNormal align=center style='text-align:center'><b>Example<o:p></o:p></b></p>
+   </td>
+   <td style='padding:.75pt .75pt .75pt .75pt'>
+   <p class=MsoNormal align=center style='text-align:center'><b>Name<o:p></o:p></b></p>
+   </td>
+   <td style='padding:.75pt .75pt .75pt .75pt'>
+   <p class=MsoNormal align=center style='text-align:center'><b>Result<o:p></o:p></b></p>
+   </td>
+  </tr>
+ </thead>
+ <tr style='mso-yfti-irow:2'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><code><b><span style='font-size:10.0pt'>$a &amp; $b</span></b></code></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>And</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Bits that are set in both <var>$a</var> and <var>$b</var>
+  are set.</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><code><b><span style='font-size:10.0pt'>$a | $b</span></b></code></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Or (inclusive or)</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Bits that are set in either <var>$a</var> or <var>$b</var>
+  are set.</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><code><b><span style='font-size:10.0pt'>$a ^ $b</span></b></code></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=SpellE>Xor</span> (exclusive or)</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Bits that are set in <var>$a</var> or <var>$b</var> but
+  not both are set. </p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:5'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><code><b><span style='font-size:10.0pt'>~ $a</span></b></code></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Not</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Bits that are set in <var>$a</var> are not set, and vice
+  versa. </p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:6'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><code><b><span style='font-size:10.0pt'>$a &lt;&lt; $b</span></b></code></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Shift left</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Shift the bits of <var>$a</var> <var>$b</var> steps to the
+  left (each step means &quot;multiply by two&quot;) </p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:7;mso-yfti-lastrow:yes'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><code><b><span style='font-size:10.0pt'>$a &gt;&gt; $b</span></b></code></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Shift right</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Shift the bits of <var>$a</var> <var>$b</var> steps to the
+  right (each step means &quot;divide by two&quot;) </p>
+  </td>
+ </tr>
+</table>
+
+<p class=para>Bit shifting in PHP is arithmetic. Bits shifted off either end
+are discarded. Left shifts have zeros shifted in on the right while the sign
+bit is shifted out on the left, meaning the sign of an operand is not
+preserved. Right shifts have copies of the sign bit shifted in on the left,
+meaning the sign of an operand is preserved. </p>
+
+<p class=para>Use parentheses to ensure the desired <a
+href="http://php.net/manual/en/language.operators.precedence.php">precedence</a>.
+For example, <em>$a &amp; $b == true</em> evaluates the equivalency then the
+bitwise and; while <em>($a &amp; $b) == true</em> evaluates the bitwise and
+then the equivalency. </p>
+
+<p class=para>If both operands for the <em>&amp;</em>, <em>|</em> and <em>^</em>
+operators are strings, then the operation will be performed on the ASCII values
+of the characters that make up the strings and the result will be a string. In
+all other cases, both operands will be <a
+href="http://php.net/manual/en/language.types.integer.php#language.types.integer.casting">converted
+to integers</a> and the result will be an integer. </p>
+
+<p class=para>If the operand for the <em>~</em> operator is a string, the
+operation will be performed on the ASCII values of the characters that make up
+the string and the result will be a string, otherwise the operand and the
+result will be treated as integers. </p>
+
+<p class=para>Both operands and the result for the <em>&lt;&lt;</em> and <em>&gt;&gt;</em>
+operators are always treated as integers. </p>
+
+<p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+
+</div>
+
+</body>
+
+</html>

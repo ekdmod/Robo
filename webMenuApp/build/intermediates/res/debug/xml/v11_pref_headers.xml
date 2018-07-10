@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+    <header
+        android:fragment="org.webmenu.level11.Preferences$SettingsFragment"
+        android:title="@string/pref_header_general"
+        android:summary="@string/pref_header_general" />
+        <extra android:name="settings" android:value="main" />
+    <header
+        android:fragment="org.webmenu.level11.Preferences$SettingsFragment"
+        android:title="@string/pref_header_general"
+        android:summary="@string/pref_header_general" >
+        <!-- key/value pairs can be included as arguments for the fragment. -->
+        <extra android:name="settings" android:value="style" />
+    </header>
+</preference-headers><!-- From: file:/C:/Documents%20and%20Settings/EK/AndroidstudioProjects/WebMenuApp/webMenuApp/src/main/res/xml/v11_pref_headers.xml -->

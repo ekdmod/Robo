@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+  <gradient
+      android:startColor="@android:color/holo_orange_dark"
+      android:endColor="@android:color/holo_orange_dark"
+      android:angle="90" />
+</shape><!-- From: file:/C:/Documents%20and%20Settings/EK/AndroidstudioProjects/WebMenuApp/webMenuApp/src/main/res/drawable-hdpi/list_item_bg_pressed.xml -->

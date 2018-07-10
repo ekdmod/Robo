@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+    
+    	<org.webmenu.level11.View.ImageViewExample
+    	    android:id="@+id/image_menu"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:contentDescription="@string/desc_list_item_icon"
+    	    android:scaleType="matrix" />
+			<org.webmenu.level11.View.TextView3DRotate
+			    android:id="@+id/text_menu"
+			    android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:background="#80555554"
+				android:textSize="18sp"
+				android:textColor="@color/White"
+				android:layout_alignRight="@+id/image_menu"
+				android:layout_alignBottom="@+id/image_menu"
+				android:layout_alignLeft="@+id/image_menu"
+				android:gravity="center" />
+    	<org.webmenu.level11.View.ImageViewExample    	
+    	    android:id="@+id/image_menu_2"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_toRightOf="@+id/image_menu"
+    	    android:layout_alignTop="@+id/image_menu"
+    	    android:layout_alignBottom="@+id/image_menu"
+    	    android:contentDescription="@string/desc_list_item_icon"
+    	    android:scaleType="matrix" />
+    		<org.webmenu.level11.View.TextView3DRotate
+			    android:id="@+id/text_menu_2"
+			    android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:background="#80555554"
+				android:textSize="19sp"
+				android:textColor="@color/White"
+				android:layout_alignRight="@+id/image_menu_2"
+				android:layout_alignBottom="@+id/image_menu_2"
+				android:layout_alignLeft="@+id/image_menu_2"
+				android:gravity="center" />
+		<org.webmenu.level11.View.ImageViewExample				
+    	    android:id="@+id/image_menu_3"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_below="@+id/image_menu_2"
+    	    android:contentDescription="@string/desc_list_item_icon"
+    	    android:layout_alignParentBottom="true"
+    	    android:scaleType="matrix" />
+			<org.webmenu.level11.View.TextView3DRotate
+			    android:id="@+id/text_menu_4"
+			    android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:background="#80555554"
+				android:textSize="21sp"
+				android:textColor="@color/White"
+				android:layout_alignRight="@+id/image_menu_3"
+				android:layout_alignBottom="@+id/image_menu_3"
+				android:layout_alignLeft="@+id/image_menu_3"
+				android:gravity="center" />
+		<org.webmenu.level11.View.ImageViewExample				
+    	    android:id="@+id/image_menu_4"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="match_parent"
+    	    android:contentDescription="@string/desc_list_item_icon"
+			android:scaleType="matrix" />
+			<org.webmenu.level11.View.TextView3DRotate			
+			    android:id="@+id/text_menu_5"
+			    android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:background="#80555554"
+				android:textSize="12sp"
+				android:textColor="@color/White"
+				android:layout_alignRight="@+id/image_menu_4"
+				android:layout_alignBottom="@+id/image_menu_4"
+				android:layout_alignLeft="@+id/image_menu_4" />
+</RelativeLayout>
+
+<!-- From: file:/C:/Documents%20and%20Settings/EK/AndroidstudioProjects/WebMenuApp/webMenuApp/src/main/res/layout/front_side_menu_api11.xml -->

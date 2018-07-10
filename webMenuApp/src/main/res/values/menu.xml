@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bottom_menu_titles">
+    	<item>About us</item>
+		<item>Guide</item>
+		<item>Support</item>
+		<item>Products</item>
+		<item>How to find us</item>
+		<item>Help</item>
+		<item>Settings</item>
+		<item>Technology description</item>
+	</string-array>
+	<integer-array name="bottom_menu_icons">
+	    <item>@drawable/hss</item>
+		<item>@drawable/start_item</item>
+		<item>@drawable/p_trak</item>
+		<item>@drawable/hlr</item>
+		<item>@drawable/hss</item>
+		<item>@drawable/start_item</item>
+		<item>@drawable/sgs</item>
+		<item>@drawable/profito_it</item>
+	</integer-array>
+	<string-array name="news_item_names">
+    	<item>Cult of Elon Musk? Billionaire\'s Image Shines With Steve Jobs\' Aura</item>
+		<item>Apple: The Brand That Has Stood the Test of </item>
+		<item>Preventing VPN security risks for mobile employees</item>
+		<item>Alpha Software Reduces Mobile Application Costs</item>
+		<item>Google Search Gets Better Conversation Skills; OpenTable Integration</item>
+		<item>Salesforce.com Platform Helps Companies Build Mobile Apps</item>
+		<item>Program notes from a software security veteran</item>
+		<item>Google\'s Mobile Search App Will Now Remind You To Pay Your Bills</item>
+		<item>Xiaomi Announces Bluetooth Game Controller For Mi Phones And Mi Pad.</item>
+		<item>The anatomy and physiology of APT attacks</item>
+		<item>Mysterious Hole On Leaked iPad Air 2 Case Hints At New Hardware.</item>
+		<item>Keeping with HTC tradition, leakers have managed to fish out some details of the soon to be announced smartphone.</item>		
+	</string-array>
+	<string-array name="news_item_desc">
+    	<item>es been compared to Thomas Edison, to Henry Ford, to Steve Jobs — even to Tony Stark, the high-flying industrialist in Marvel\'s \"Iron Man\" comic books and movies. But it\'s hard to imagine any of those characters saying with a straight face that they\'re planning to retire on Mars. </item>
+		<item>Through years of struggle and euphoria alike, Apple\'s brand name has never faded - we look at the possible reasons why. </item>
+		<item>Expert Kevin Beaver offers VPN security best practices, including how to prevent risks and secure VPN access for mobile employees</item>
+		<item>It’s hard to build mobile computing applications in the enterprise because there are not only so many data sources to integrate, the application itself needs to be able to work offline to minimize telecommunications costs.</item>
+		<item>Google has released a new update for its Search app that improves conversational search, and can help users find restaurants and make reservations with just voice commands.The search giant has also integrated Search with OpenTable, a company that offers online real-time restaurant-reservation service. Google notes that restaurant reservations can be made through the Search app if the restaurant is on OpenTable.</item>
+		<item>Salesforce.com introduces ExactTarget Journey Builder for Apps to support engaging, marketing-savvy mobile applications</item>
+		<item>I think I learned a lot more than they did. The developers and their project leads viewed security controls in the development process as obstacles to getting real work accomplished, and they had no budget for the hours of remediation work required when security vulnerabilities were discovered. My implementation approach was effective at giving me an education but not that effective at educating them.</item>
+		<item>Googlea search app has been helping us with a lot of things, and its latest feature is probably its most useful ever. The app can now keep track of when your bills are due, helping you pay them on time and keep your credit in check</item>
+		<item>Xiaomi has announced its newest addition to the Xiaomi family of devices, aptly called the Xiaomi Bluetooth Game Controller. The device looks pretty similar to the black Xbox controller if you ask us, but this one has apparently been designed exclusively for Xiaomi devices.</item>
+		<item>The cyberthreat landscape has changed. We used to deal with hackers in the classic sense, from explorers of systems to script kiddies who used newly automated exploit tools, developed by taking hackers technical knowledge and packaging it. In the background lurked the underground and criminal types who move into any vacuum, given enough time, if there is something to steal.</item>
+		<item>Now that the iPhone 6 and iPhone 6 Plus are out of the way, it\'s time for Appleas updated line of tablets to take over the news. We don\'t know a lot about the upcoming iPads, but an alleged photo of a case for the iPad Air 2 points at a small hardware change that has us perplexed.</item>
+		<item>So far there is not much that has leaked out about the handset, which is a bit surprising considering this is an “HTC” handset that we are talking about. As far as the leak goes, the information points to a smartphone that will sport a 5.2 inch display with a pixel density of 423ppi. Inside we should expect a Snapdragon 801 chipset which is pretty much the same as the HTC One.</item>
+	</string-array>
+	<string-array name="news_items_urls">
+    	<item>About us</item>
+		<item>Guide</item>
+		<item>Support</item>
+		<item>Products</item>
+		<item>How to find us</item>
+		<item>Help</item>
+		<item>Settings</item>
+		<item>Technology description</item>
+	</string-array>
+	<integer-array name="news_item_icons">
+	    <item>@drawable/hss</item>
+		<item>@drawable/start_item</item>
+		<item>@drawable/p_trak</item>
+		<item>@drawable/hlr</item>
+		<item>@drawable/hss</item>
+		<item>@drawable/start_item</item>
+		<item>@drawable/sgs</item>
+		<item>@drawable/profito_it</item>
+	</integer-array>
+</resources>

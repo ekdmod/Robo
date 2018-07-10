@@ -1,0 +1,651 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1257">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 11">
+<meta name=Originator content="Microsoft Word 11">
+<link rel=File-List href="PHP%20and%20HTML_files/filelist.xml">
+<title>PHP and HTML</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>EDEN</o:Author>
+  <o:LastAuthor>EDEN</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>1</o:TotalTime>
+  <o:Created>2015-02-21T14:08:00Z</o:Created>
+  <o:LastSaved>2015-02-21T14:08:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>1382</o:Words>
+  <o:Characters>7880</o:Characters>
+  <o:Company>E</o:Company>
+  <o:Lines>65</o:Lines>
+  <o:Paragraphs>18</o:Paragraphs>
+  <o:CharactersWithSpaces>9244</o:CharactersWithSpaces>
+  <o:Version>11.9999</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+h1
+	{mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:1;
+	font-size:24.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+p
+	{mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+code
+	{font-family:"Courier New";
+	mso-ascii-font-family:"Courier New";
+	mso-fareast-font-family:"Times New Roman";
+	mso-hansi-font-family:"Courier New";
+	mso-bidi-font-family:"Courier New";}
+pre
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
+	font-size:10.0pt;
+	font-family:"Courier New";
+	mso-fareast-font-family:"Times New Roman";}
+p.para, li.para, div.para
+	{mso-style-name:para;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+span.type
+	{mso-style-name:type;}
+span.function
+	{mso-style-name:function;}
+span.simpara
+	{mso-style-name:simpara;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+@page Section1
+	{size:612.0pt 792.0pt;
+	margin:27.0pt 36.0pt 27.0pt 36.0pt;
+	mso-header-margin:35.4pt;
+	mso-footer-margin:35.4pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:254172214;
+	mso-list-template-ids:-1987826078;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1
+	{mso-list-id:789781213;
+	mso-list-template-ids:-1333597766;}
+@list l1:level1
+	{mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]-->
+</head>
+
+<body lang=EN-US link=blue vlink=purple style='tab-interval:36.0pt'>
+
+<div class=Section1>
+
+<h1 align=center style='text-align:center'>PHP and HTML</h1>
+
+<p class=para>PHP and HTML interact a lot: PHP can generate HTML, and HTML can
+pass information to PHP. Before reading these <span class=SpellE>faqs</span>,
+it's important you learn how to retrieve <a
+href="http://php.net/manual/en/language.variables.external.php">variables from
+external sources</a>. The manual page on this topic includes many examples as
+well. Pay close attention to what <span class=SpellE><em>register_globals</em></span>
+means to you too. </p>
+
+<ol start=1 type=1>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l1 level1 lfo1;tab-stops:list 36.0pt'><a
+     href="http://php.net/manual/en/faq.html.php#faq.html.encoding">What
+     encoding/decoding do I need when I pass a value through a form/URL? </a></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l1 level1 lfo1;tab-stops:list 36.0pt'><a
+     href="http://php.net/manual/en/faq.html.php#faq.html.form-image">I'm
+     trying to use an &lt;input type=&quot;image&quot;&gt; tag, but the $<span
+     class=SpellE>foo.x</span> and $<span class=SpellE>foo.y</span> variables
+     aren't available. $_<span class=GramE>GET[</span>'<span class=SpellE>foo.x</span>']
+     isn't existing either. Where are they? </a></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l1 level1 lfo1;tab-stops:list 36.0pt'><a
+     href="http://php.net/manual/en/faq.html.php#faq.html.arrays">How do I
+     create arrays in a HTML &lt;form&gt;? </a></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l1 level1 lfo1;tab-stops:list 36.0pt'><a
+     href="http://php.net/manual/en/faq.html.php#faq.html.select-multiple">How
+     do I get all the results from a select multiple HTML tag? </a></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l1 level1 lfo1;tab-stops:list 36.0pt'><a
+     href="http://php.net/manual/en/faq.html.php#faq.html.javascript-variable">How
+     can I pass a variable from <span class=SpellE>Javascript</span> to PHP? </a></li>
+</ol>
+
+<p class=MsoNormal><strong>What encoding/decoding do I need when I pass a value
+through a form/URL? </strong></p>
+
+<p class=para style='margin-left:36.0pt'>There are several <span class=GramE>stages
+for which encoding is</span> important. Assuming that you have a <span
+class=type><a href="http://php.net/manual/en/language.types.string.php">string</a></span>
+<var>$data</var>, which contains the string you want to pass on in a
+non-encoded way, these are the relevant stages: </p>
+
+<p class=para style='margin-left:72.0pt;text-indent:-18.0pt;mso-list:l0 level1 lfo2;
+tab-stops:list 36.0pt'><![if !supportLists]><span style='font-size:10.0pt;
+mso-bidi-font-size:12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>HTML interpretation. In order to specify a
+random string, you <em>must</em> include it in double quotes, and <span
+class=function><a href="http://php.net/manual/en/function.htmlspecialchars.php"><span
+class=SpellE><span class=GramE>htmlspecialchars</span></span><span class=GramE>(</span>)</a></span>
+the whole value. </p>
+
+<p class=para style='margin-left:72.0pt;text-indent:-18.0pt;mso-list:l0 level1 lfo2;
+tab-stops:list 36.0pt'><![if !supportLists]><span style='font-size:10.0pt;
+mso-bidi-font-size:12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>URL: A URL consists of several parts. If you
+want your data to be interpreted as one item, you <em>must</em> encode it with <span
+class=function><a href="http://php.net/manual/en/function.urlencode.php"><span
+class=SpellE><span class=GramE>urlencode</span></span><span class=GramE>(</span>)</a></span>.
+</p>
+
+<p style='margin-left:36.0pt'><strong>Example #1 A hidden HTML form element</strong></p>
+
+<p class=MsoNormal style='margin-left:36.0pt'><span class=GramE><code><span
+style='font-size:10.0pt;color:#0000BB'>&lt;?<span class=SpellE>php</span></span></code></span><span
+style='font-size:10.0pt;font-family:"Courier New";color:#0000BB'><br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;</code></span><code><span style='font-size:10.0pt;
+color:#007700'>echo&nbsp;</span></code><code><span style='font-size:10.0pt;
+color:#DD0000'>'&lt;input&nbsp;type=&quot;hidden&quot;&nbsp;value=&quot;'&nbsp;</span></code><code><span
+style='font-size:10.0pt;color:#007700'>.&nbsp;</span></code><span class=SpellE><span
+class=GramE><code><span style='font-size:10.0pt;color:#0000BB'>htmlspecialchars</span></code></span></span><span
+class=GramE><code><span style='font-size:10.0pt;color:#007700'>(</span></code></span><code><span
+style='font-size:10.0pt;color:#0000BB'>$data</span></code><code><span
+style='font-size:10.0pt;color:#007700'>)&nbsp;.&nbsp;</span></code><code><span
+style='font-size:10.0pt;color:#DD0000'>'&quot;&nbsp;/&gt;'</span></code><code><span
+style='font-size:10.0pt;color:#007700'>.</span></code><code><span
+style='font-size:10.0pt;color:#DD0000'>&quot;\n<span class=GramE>&quot;<span
+style='color:#007700'>;</span><span style='color:#007700'><br>
+</span><span style='color:#0000BB'>?&gt;</span></span></span></code><code><span
+style='font-size:10.0pt;color:black'> </span></code></p>
+
+<p style='margin-left:36.0pt'><strong>Note</strong>: <span class=simpara>It is
+wrong to </span><span class=function><a
+href="http://php.net/manual/en/function.urlencode.php"><span class=SpellE><span
+class=GramE>urlencode</span></span><span class=GramE>(</span>)</a></span><span
+class=simpara> </span><var>$data</var><span class=simpara>, because it's the
+browsers responsibility to </span><span class=function><a
+href="http://php.net/manual/en/function.urlencode.php"><span class=SpellE>urlencode</span>()</a></span><span
+class=simpara> the data. All popular browsers do that correctly. Note that this
+will happen regardless of the method (i.e., GET or POST). You'll only notice
+this in case of GET request though, because POST requests are usually hidden. </span></p>
+
+<p style='margin-left:36.0pt'><strong>Example #2 Data to be edited by the user</strong></p>
+
+<p class=MsoNormal style='margin-left:36.0pt'><span class=GramE><code><span
+style='font-size:10.0pt;color:#0000BB'>&lt;?<span class=SpellE>php</span></span></code></span><span
+style='font-size:10.0pt;font-family:"Courier New";color:#0000BB'><br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;</code></span><code><span style='font-size:10.0pt;
+color:#007700'>echo&nbsp;</span></code><code><span style='font-size:10.0pt;
+color:#DD0000'>&quot;&lt;<span class=SpellE>textarea</span>&nbsp;name='<span
+class=SpellE>mydata</span>'&gt;\n&quot;</span></code><code><span
+style='font-size:10.0pt;color:#007700'>;</span></code><span style='font-size:
+10.0pt;font-family:"Courier New";color:#007700'><br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</code></span><span class=SpellE><code><span
+style='font-size:10.0pt;color:#0000BB'>htmlspecialchars</span></code></span><code><span
+style='font-size:10.0pt;color:#007700'>(</span></code><code><span
+style='font-size:10.0pt;color:#0000BB'>$data</span></code><code><span
+style='font-size:10.0pt;color:#007700'>).</span></code><code><span
+style='font-size:10.0pt;color:#DD0000'>&quot;\n&quot;</span></code><code><span
+style='font-size:10.0pt;color:#007700'>;</span></code><span style='font-size:
+10.0pt;font-family:"Courier New";color:#007700'><br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</code></span><code><span
+style='font-size:10.0pt;color:#DD0000'>&quot;&lt;/<span class=SpellE>textarea</span>&gt;<span
+class=GramE>&quot;<span style='color:#007700'>;</span><span style='color:#007700'><br>
+</span><span style='color:#0000BB'>?&gt;</span></span></span></code><code><span
+style='font-size:10.0pt;color:black'> </span></code></p>
+
+<p style='margin-left:36.0pt'><strong>Note</strong>: <span class=simpara>The
+data is shown in the browser as intended, because the browser will interpret
+the HTML escaped symbols. Upon submitting, either via GET or POST, the data
+will be <span class=SpellE>urlencoded</span> by the browser for transferring,
+and directly <span class=SpellE>urldecoded</span> by PHP. So in the end, you
+don't need to do any <span class=SpellE>urlencoding/urldecoding</span>
+yourself, everything is handled <span class=SpellE>automagically</span>. </span></p>
+
+<p style='margin-left:36.0pt'><strong>Example #3 <span class=GramE>In</span> a
+URL</strong></p>
+
+<p class=MsoNormal style='margin-left:36.0pt'><span class=GramE><code><span
+style='font-size:10.0pt;color:#0000BB'>&lt;?<span class=SpellE>php</span></span></code></span><span
+style='font-size:10.0pt;font-family:"Courier New";color:#0000BB'><br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;</code></span><code><span style='font-size:10.0pt;
+color:#007700'>echo&nbsp;</span></code><code><span style='font-size:10.0pt;
+color:#DD0000'>'&lt;a&nbsp;<span class=SpellE>href</span>=&quot;'&nbsp;</span></code><code><span
+style='font-size:10.0pt;color:#007700'>.&nbsp;</span></code><span class=SpellE><span
+class=GramE><code><span style='font-size:10.0pt;color:#0000BB'>htmlspecialchars</span></code></span></span><span
+class=GramE><code><span style='font-size:10.0pt;color:#007700'>(</span></code></span><code><span
+style='font-size:10.0pt;color:#DD0000'>&quot;/<span class=SpellE>nextpage.php?stage</span>=23&amp;data=&quot;&nbsp;</span></code><code><span
+style='font-size:10.0pt;color:#007700'>.</span></code><span style='font-size:
+10.0pt;font-family:"Courier New";color:#007700'><br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code></span><span
+class=SpellE><span class=GramE><code><span style='font-size:10.0pt;color:#0000BB'>urlencode</span></code></span></span><span
+class=GramE><code><span style='font-size:10.0pt;color:#007700'>(</span></code></span><code><span
+style='font-size:10.0pt;color:#0000BB'>$data</span></code><code><span
+style='font-size:10.0pt;color:#007700'>))&nbsp;.&nbsp;</span></code><code><span
+style='font-size:10.0pt;color:#DD0000'>'&quot;&gt;'</span></code><code><span
+style='font-size:10.0pt;color:#007700'>.</span></code><code><span
+style='font-size:10.0pt;color:#DD0000'>&quot;\n<span class=GramE>&quot;<span
+style='color:#007700'>;</span><span style='color:#007700'><br>
+</span><span style='color:#0000BB'>?&gt;</span></span></span></code><code><span
+style='font-size:10.0pt;color:black'> </span></code></p>
+
+<p style='margin-left:36.0pt'><strong>Note</strong>: <span class=simpara>In
+fact you are faking a HTML GET request, therefore it's necessary to manually </span><span
+class=function><a href="http://php.net/manual/en/function.urlencode.php"><span
+class=SpellE><span class=GramE>urlencode</span></span><span class=GramE>(</span>)</a></span><span
+class=simpara> the data. </span></p>
+
+<p style='margin-left:36.0pt'><strong>Note</strong>: <span class=simpara>You
+need to </span><span class=function><a
+href="http://php.net/manual/en/function.htmlspecialchars.php"><span
+class=SpellE><span class=GramE>htmlspecialchars</span></span><span class=GramE>(</span>)</a></span><span
+class=simpara> the whole URL, because the URL occurs as value of an
+HTML-attribute. In this case, the browser will first un-</span><span
+class=SpellE><span class=function><a
+href="http://php.net/manual/en/function.htmlspecialchars.php"><span
+class=GramE>htmlspecialchars</span></a></span></span><span class=GramE><span
+class=MsoHyperlink>(</span></span><span class=MsoHyperlink>)</span></p>
+
+<span class=simpara><span style='font-size:12.0pt;font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-US;mso-fareast-language:
+EN-US;mso-bidi-language:AR-SA'><span style='mso-spacerun:yes'> </span>the
+value, and then pass the URL on. PHP will understand the URL correctly, because
+you </span></span><span class=function><span style='font-size:12.0pt;
+font-family:"Times New Roman";mso-fareast-font-family:"Times New Roman";
+mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><a
+href="http://php.net/manual/en/function.urlencode.php"><span class=SpellE><span
+class=GramE>urlencode</span></span><span class=GramE>(</span>)</a></span></span><span
+class=simpara><span style='font-size:12.0pt;font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-US;mso-fareast-language:
+EN-US;mso-bidi-language:AR-SA'>d the data. You'll notice that the </span></span><em><span
+style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'>&amp;</span></em><span
+class=simpara><span style='font-size:12.0pt;font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-US;mso-fareast-language:
+EN-US;mso-bidi-language:AR-SA'> in the URL is replaced by </span></span><em><span
+style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";mso-ansi-language:
+EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'>&amp;amp<span
+class=GramE>;<span class=simpara><span style='font-style:normal'>.</span></span></span></span></em><span
+class=simpara><span style='font-size:12.0pt;font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-US;mso-fareast-language:
+EN-US;mso-bidi-language:AR-SA'> Although most browsers will recover if you
+forget this, this isn't always possible. So even if your URL is not dynamic,
+you </span></span><em><span style='font-size:12.0pt;mso-fareast-font-family:
+"Times New Roman";mso-ansi-language:EN-US;mso-fareast-language:EN-US;
+mso-bidi-language:AR-SA'>need</span></em><span class=simpara><span
+style='font-size:12.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";mso-ansi-language:EN-US;mso-fareast-language:EN-US;
+mso-bidi-language:AR-SA'> to </span></span><span class=function><span
+style='font-size:12.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";mso-ansi-language:EN-US;mso-fareast-language:EN-US;
+mso-bidi-language:AR-SA'><a
+href="http://php.net/manual/en/function.htmlspecialchars.php"><span
+class=SpellE><span class=GramE>htmlspecialchars</span></span><span class=GramE>(</span>)</a></span></span><span
+class=simpara><span style='font-size:12.0pt;font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-US;mso-fareast-language:
+EN-US;mso-bidi-language:AR-SA'> the URL. </span></span>
+
+<p class=MsoNormal><strong>I'm trying to use an &lt;input
+type=&quot;image&quot;&gt; tag, but the </strong><var><b>$<span class=SpellE>foo.x</span></b></var><strong>
+and </strong><var><b>$<span class=SpellE>foo.y</span></b></var><strong>
+variables aren't available. </strong><var><b><a
+href="http://php.net/manual/en/reserved.variables.get.php">$_<span class=GramE>GET[</span>'<span
+class=SpellE>foo.x</span>']</a></b></var><strong> isn't existing either. Where
+are they? </strong></p>
+
+<p class=para style='margin-left:36.0pt'>When submitting a form, it is possible
+to use an image instead of the standard submit button with a tag like: </p>
+
+<pre style='margin-left:36.0pt'>&lt;input type=&quot;image&quot; <span
+class=SpellE>src</span>=&quot;<span class=SpellE>image.gif</span>&quot; name=&quot;<span
+class=SpellE>foo</span>&quot; /&gt;</pre>
+
+<p class=MsoNormal style='margin-left:36.0pt'>When the user clicks somewhere on
+the image, the accompanying form will be transmitted to the server with two
+additional variables: <span class=SpellE><var>foo.x</var></span> and <span
+class=SpellE><var>foo.y</var></span>. </p>
+
+<p class=para style='margin-left:36.0pt'>Because <span class=SpellE><var>foo.x</var></span>
+and <span class=SpellE><var>foo.y</var></span> would make invalid variable
+names in PHP, they are <span class=SpellE>automagically</span> converted to <span
+class=SpellE><var>foo_x</var></span> and <span class=SpellE><var>foo_y</var></span>.
+That is, the periods are replaced with underscores. So, you'd access these
+variables like any other described within the section on retrieving <a
+href="http://php.net/manual/en/language.variables.external.php">variables from
+external sources</a>. For example, <var><a
+href="http://php.net/manual/en/reserved.variables.get.php">$_<span class=GramE>GET[</span>'<span
+class=SpellE>foo_x</span>']</a></var>. </p>
+
+<p style='margin-left:36.0pt'><strong>Note</strong>: </p>
+
+<p class=para style='margin-left:36.0pt'>Spaces in request variable names are
+converted to underscores. </p>
+
+<p class=MsoNormal><strong>How do I create arrays in a HTML &lt;form&gt;? </strong></p>
+
+<p class=para style='margin-left:36.0pt'>To get your &lt;form&gt; result sent
+as an <a href="http://php.net/manual/en/language.types.array.php">array</a> to
+your PHP script you name the &lt;input&gt;, &lt;select&gt; or &lt;<span
+class=SpellE>textarea</span>&gt; elements like this: </p>
+
+<pre style='margin-left:36.0pt'>&lt;input name=&quot;<span class=SpellE><span
+class=GramE>MyArray</span></span><span class=GramE>[</span>]&quot; /&gt;</pre><pre
+style='margin-left:36.0pt'>&lt;input name=&quot;<span class=SpellE><span
+class=GramE>MyArray</span></span><span class=GramE>[</span>]&quot; /&gt;</pre><pre
+style='margin-left:36.0pt'>&lt;input name=&quot;<span class=SpellE><span
+class=GramE>MyArray</span></span><span class=GramE>[</span>]&quot; /&gt;</pre><pre
+style='margin-left:36.0pt'>&lt;input name=&quot;<span class=SpellE><span
+class=GramE>MyArray</span></span><span class=GramE>[</span>]&quot; /&gt;</pre>
+
+<p class=MsoNormal style='margin-left:36.0pt'>Notice the square brackets after
+the variable name, that's what makes it an array. You can group the elements into
+different arrays by assigning the same name to different elements: </p>
+
+<pre style='margin-left:36.0pt'>&lt;input name=&quot;<span class=SpellE><span
+class=GramE>MyArray</span></span><span class=GramE>[</span>]&quot; /&gt;</pre><pre
+style='margin-left:36.0pt'>&lt;input name=&quot;<span class=SpellE><span
+class=GramE>MyArray</span></span><span class=GramE>[</span>]&quot; /&gt;</pre><pre
+style='margin-left:36.0pt'>&lt;input name=&quot;<span class=SpellE><span
+class=GramE>MyOtherArray</span></span><span class=GramE>[</span>]&quot; /&gt;</pre><pre
+style='margin-left:36.0pt'>&lt;input name=&quot;<span class=SpellE><span
+class=GramE>MyOtherArray</span></span><span class=GramE>[</span>]&quot; /&gt;</pre>
+
+<p class=MsoNormal style='margin-left:36.0pt'>This produces two arrays, <span
+class=SpellE>MyArray</span> and <span class=SpellE><span class=GramE>MyOtherArray</span></span><span
+class=GramE>, that</span> gets sent to the PHP script. It's also possible to
+assign specific keys to your arrays: </p>
+
+<pre style='margin-left:36.0pt'>&lt;input name=&quot;<span class=SpellE><span
+class=GramE>AnotherArray</span></span><span class=GramE>[</span>]&quot; /&gt;</pre><pre
+style='margin-left:36.0pt'>&lt;input name=&quot;<span class=SpellE><span
+class=GramE>AnotherArray</span></span><span class=GramE>[</span>]&quot; /&gt;</pre><pre
+style='margin-left:36.0pt'>&lt;input name=&quot;<span class=SpellE><span
+class=GramE>AnotherArray</span></span><span class=GramE>[</span>email]&quot; /&gt;</pre><pre
+style='margin-left:36.0pt'>&lt;input name=&quot;<span class=SpellE><span
+class=GramE>AnotherArray</span></span><span class=GramE>[</span>phone]&quot; /&gt;</pre>
+
+<p class=MsoNormal style='margin-left:36.0pt'>The <span class=SpellE>AnotherArray</span>
+array will now contain the keys 0, 1, email and phone. </p>
+
+<p style='margin-left:36.0pt'><strong>Note</strong>: </p>
+
+<p class=para style='margin-left:36.0pt'>Specifying an arrays key is optional
+in HTML. If you do not specify the keys, the array gets filled in the order the
+elements appear in the form. Our first example will contain keys 0, 1, 2 and 3.
+</p>
+
+<p class=para style='margin-left:36.0pt'>See also <a
+href="http://php.net/manual/en/ref.array.php">Array Functions</a> and <a
+href="http://php.net/manual/en/language.variables.external.php">Variables <span
+class=GramE>From</span> External Sources</a>. </p>
+
+<p class=MsoNormal><strong>How do I get all the results from a select multiple
+HTML tag? </strong></p>
+
+<p class=para style='margin-left:36.0pt'>The select multiple <span class=GramE>tag</span>
+in an HTML construct allows users to select multiple items from a list. These
+items are then passed to the action handler for the form. The problem is that
+they are all passed with the same widget name. <span class=GramE>I.e.</span> </p>
+
+<pre style='margin-left:36.0pt'>&lt;select name=&quot;<span class=SpellE>var</span>&quot; multiple=&quot;yes&quot;&gt;</pre>
+
+<p class=MsoNormal style='margin-left:36.0pt'>Each selected option will arrive
+at the action handler as: </p>
+
+<pre style='margin-left:36.0pt'><span class=SpellE><span class=GramE>var</span></span><span
+class=GramE>=</span>option1</pre><pre style='margin-left:36.0pt'><span
+class=SpellE><span class=GramE>var</span></span><span class=GramE>=</span>option2</pre><pre
+style='margin-left:36.0pt'><span class=SpellE><span class=GramE>var</span></span><span
+class=GramE>=</span>option3</pre><pre style='margin-left:36.0pt'><span style='mso-spacerun:yes'>      </span></pre>
+
+<p class=MsoNormal style='margin-left:36.0pt'>Each option will overwrite the
+contents of the previous <var>$<span class=SpellE>var</span></var> variable.
+The solution is to use <span class=SpellE>PHP's</span> &quot;array from form
+element&quot; feature. The following should be used: </p>
+
+<pre style='margin-left:36.0pt'>&lt;select name=&quot;<span class=SpellE><span
+class=GramE>var</span></span><span class=GramE>[</span>]&quot; multiple=&quot;yes&quot;&gt;</pre>
+
+<p class=MsoNormal style='margin-left:36.0pt'>This tells PHP to treat <var>$<span
+class=SpellE>var</span></var> as an array and each assignment of a value to <span
+class=SpellE><span class=GramE>var</span></span><span class=GramE>[</span>]
+adds an item to the array. The first item becomes <var>$<span class=SpellE><span
+class=GramE>var</span></span><span class=GramE>[</span>0]</var>, the next <var>$<span
+class=SpellE>var</span>[1]</var>, etc. The <span class=function><a
+href="http://php.net/manual/en/function.count.php"><span class=GramE>count(</span>)</a></span>
+function can be used to determine how many options were selected, and the <span
+class=function><a href="http://php.net/manual/en/function.sort.php">sort()</a></span>
+function can be used to sort the option array if necessary. </p>
+
+<p class=para style='margin-left:36.0pt'>Note that if you are using JavaScript
+the <em>[]</em> on the element name might cause you problems when you try to
+refer to the element by name. Use <span class=GramE>it's</span> numerical form
+element ID instead, or enclose the variable name in single quotes and use that
+as the index to the elements array, for example: </p>
+
+<pre style='margin-left:36.0pt'><span class=GramE>variable</span> = <span
+class=SpellE>documents.forms</span>[0].elements['<span class=SpellE>var</span>[]'];</pre><pre
+style='margin-left:36.0pt'><span style='mso-spacerun:yes'>      </span></pre>
+
+<p class=MsoNormal><strong>How can I pass a variable from <span class=SpellE>Javascript</span>
+to PHP? </strong></p>
+
+<p class=para style='margin-left:36.0pt'>Since <span class=SpellE>Javascript</span>
+is (usually) a client-side <span class=GramE>technology,</span> and PHP is
+(usually) a server-side technology, and since HTTP is a &quot;stateless&quot;
+protocol, the two languages cannot directly share variables. </p>
+
+<p class=para style='margin-left:36.0pt'>It is, however, possible to pass
+variables between the two. One way of accomplishing this is to generate <span
+class=SpellE>Javascript</span> code with PHP, and have the browser refresh
+itself, passing specific variables back to the PHP script. The example below
+shows precisely how to do this -- it allows PHP code to capture screen height
+and width, something that is normally only possible on the client side. </p>
+
+<p style='margin-left:36.0pt'><strong>Example #4 Generating <span class=SpellE>Javascript</span>
+with PHP</strong></p>
+
+<p class=MsoNormal style='margin-left:36.0pt'><span class=GramE><code><span
+style='font-size:10.0pt;color:#0000BB'>&lt;?<span class=SpellE>php</span></span></code></span><span
+style='font-size:10.0pt;font-family:"Courier New";color:#0000BB'><br>
+</span><code><span style='font-size:10.0pt;color:#007700'>if&nbsp;(<span
+class=SpellE>isset</span>(</span></code><code><span style='font-size:10.0pt;
+color:#0000BB'>$_GET</span></code><code><span style='font-size:10.0pt;
+color:#007700'>[</span></code><code><span style='font-size:10.0pt;color:#DD0000'>'width'</span></code><code><span
+style='font-size:10.0pt;color:#007700'>])&nbsp;AND&nbsp;<span class=SpellE>isset</span>(</span></code><code><span
+style='font-size:10.0pt;color:#0000BB'>$_GET</span></code><code><span
+style='font-size:10.0pt;color:#007700'>[</span></code><code><span
+style='font-size:10.0pt;color:#DD0000'>'height'</span></code><code><span
+style='font-size:10.0pt;color:#007700'>]))&nbsp;{</span></code><span
+style='font-size:10.0pt;font-family:"Courier New";color:#007700'><br>
+<code>&nbsp;&nbsp;</code></span><code><span style='font-size:10.0pt;color:#FF8000'>//&nbsp;output&nbsp;the&nbsp;geometry&nbsp;variables</span></code><span
+style='font-size:10.0pt;font-family:"Courier New";color:#FF8000'><br>
+<code>&nbsp;&nbsp;</code></span><code><span style='font-size:10.0pt;color:#007700'>echo&nbsp;</span></code><code><span
+style='font-size:10.0pt;color:#DD0000'>&quot;Screen&nbsp;width&nbsp;is:&nbsp;&quot;</span></code><code><span
+style='font-size:10.0pt;color:#007700'>.&nbsp;</span></code><code><span
+style='font-size:10.0pt;color:#0000BB'>$_<span class=GramE>GET<span
+style='color:#007700'>[</span></span></span></code><code><span
+style='font-size:10.0pt;color:#DD0000'>'width'</span></code><code><span
+style='font-size:10.0pt;color:#007700'>]&nbsp;.</span></code><code><span
+style='font-size:10.0pt;color:#DD0000'>&quot;&lt;<span class=SpellE>br</span>&nbsp;/&gt;\n&quot;</span></code><code><span
+style='font-size:10.0pt;color:#007700'>;</span></code><span style='font-size:
+10.0pt;font-family:"Courier New";color:#007700'><br>
+<code>&nbsp;&nbsp;echo&nbsp;</code></span><code><span style='font-size:10.0pt;
+color:#DD0000'>&quot;Screen&nbsp;height&nbsp;is:&nbsp;<span class=GramE>&quot;<span
+style='color:#007700'>.</span></span></span></code><code><span
+style='font-size:10.0pt;color:#007700'>&nbsp;</span></code><code><span
+style='font-size:10.0pt;color:#0000BB'>$_<span class=GramE>GET<span
+style='color:#007700'>[</span></span></span></code><code><span
+style='font-size:10.0pt;color:#DD0000'>'height'</span></code><code><span
+style='font-size:10.0pt;color:#007700'>]&nbsp;.</span></code><code><span
+style='font-size:10.0pt;color:#DD0000'>&quot;&lt;<span class=SpellE>br</span>&nbsp;/&gt;\n&quot;</span></code><code><span
+style='font-size:10.0pt;color:#007700'>;</span></code><span style='font-size:
+10.0pt;font-family:"Courier New";color:#007700'><br>
+<code>}&nbsp;else&nbsp;{</code><br>
+<span class=GramE><code>&nbsp;</code></span><code>&nbsp;</code></span><code><span
+style='font-size:10.0pt;color:#FF8000'>//&nbsp;pass&nbsp;the&nbsp;geometry&nbsp;variables</span></code><span
+style='font-size:10.0pt;font-family:"Courier New";color:#FF8000'><br>
+<code>&nbsp;&nbsp;//&nbsp;(preserve&nbsp;the&nbsp;original&nbsp;query&nbsp;string</code><br>
+<code>&nbsp;&nbsp;//&nbsp;&nbsp;&nbsp;--&nbsp;post&nbsp;variables&nbsp;will&nbsp;need&nbsp;to&nbsp;handled&nbsp;differently)</code><br>
+<br>
+<code>&nbsp;&nbsp;</code></span><code><span style='font-size:10.0pt;color:#007700'>echo&nbsp;</span></code><code><span
+style='font-size:10.0pt;color:#DD0000'>&quot;&lt;script&nbsp;language='<span
+class=SpellE>javascript</span>'&gt;\n&quot;</span></code><code><span
+style='font-size:10.0pt;color:#007700'>;</span></code><span style='font-size:
+10.0pt;font-family:"Courier New";color:#007700'><br>
+<code>&nbsp;&nbsp;echo&nbsp;</code></span><code><span style='font-size:10.0pt;
+color:#DD0000'>&quot;&nbsp;&nbsp;<span class=SpellE>location.href</span>=\&quot;</span></code><code><span
+style='font-size:10.0pt;color:#007700'>${</span></code><code><span
+style='font-size:10.0pt;color:#0000BB'>_SERVER</span></code><code><span
+style='font-size:10.0pt;color:#007700'>[</span></code><code><span
+style='font-size:10.0pt;color:#DD0000'>'SCRIPT_NAME'</span></code><code><span
+style='font-size:10.0pt;color:#007700'>]}</span></code><code><span
+style='font-size:10.0pt;color:#DD0000'>?</span></code><code><span
+style='font-size:10.0pt;color:#007700'>${</span></code><code><span
+style='font-size:10.0pt;color:#0000BB'>_SERVER</span></code><code><span
+style='font-size:10.0pt;color:#007700'>[</span></code><code><span
+style='font-size:10.0pt;color:#DD0000'>'QUERY_STRING'</span></code><code><span
+style='font-size:10.0pt;color:#007700'>]}</span></code><code><span
+style='font-size:10.0pt;color:#DD0000'>&quot;</span></code><span
+style='font-size:10.0pt;font-family:"Courier New";color:#DD0000'><br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code></span><code><span
+style='font-size:10.0pt;color:#007700'>.&nbsp;</span></code><code><span
+style='font-size:10.0pt;color:#DD0000'>&quot;&amp;width=\&quot;&nbsp;+&nbsp;<span
+class=SpellE>screen.width</span>&nbsp;+&nbsp;\&quot;&amp;height=\&quot;&nbsp;+&nbsp;<span
+class=SpellE>screen.height</span><span class=GramE>;\</span>n&quot;</span></code><code><span
+style='font-size:10.0pt;color:#007700'>;</span></code><span style='font-size:
+10.0pt;font-family:"Courier New";color:#007700'><br>
+<code>&nbsp;&nbsp;echo&nbsp;</code></span><code><span style='font-size:10.0pt;
+color:#DD0000'>&quot;&lt;/script&gt;\n&quot;</span></code><code><span
+style='font-size:10.0pt;color:#007700'>;</span></code><span style='font-size:
+10.0pt;font-family:"Courier New";color:#007700'><br>
+<code>&nbsp;&nbsp;exit();</code><br>
+<code>}</code><br>
+</span><code><span style='font-size:10.0pt;color:#0000BB'>?&gt;</span></code><code><span
+style='font-size:10.0pt;color:black'> </span></code></p>
+
+<p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+
+</div>
+
+</body>
+
+</html>

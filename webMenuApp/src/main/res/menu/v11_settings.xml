@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:menu="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="org.webmenu.level11.LeftMenu" >
+    <item
+        android:id="@+id/editTextSearch"
+        android:title="@string/search"
+        android:orderInCategory="100"
+        android:icon="@drawable/search"
+        android:onClick="search"
+        menu:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/news"
+        android:title="@string/news"
+        android:orderInCategory="100"
+        android:menuCategory="secondary"
+        android:icon="@drawable/news" />
+    <item
+        android:id="@+id/facebook"
+        android:title="@string/facebook"
+        android:orderInCategory="100"
+        android:menuCategory="secondary"
+        android:icon="@drawable/find_me" />
+    <item
+        android:id="@+id/feedback"
+        android:title="@string/feedback"
+        android:orderInCategory="100"
+        android:menuCategory="secondary"
+        android:icon="@drawable/feedback_setting" />
+    <item
+        android:id="@+id/narrow"
+        android:title="@string/narrow"
+        android:orderInCategory="100"
+        android:menuCategory="secondary"
+        android:icon="@drawable/aaa3" />
+    <item
+        android:id="@+id/google"
+        android:title="@string/google"
+        android:orderInCategory="100"
+        android:menuCategory="secondary"
+        android:icon="@drawable/ic_launcher" />
+    <item
+        android:id="@+id/theme_settings"
+        android:title="@string/theme"
+        android:orderInCategory="100"
+        android:menuCategory="secondary"
+        android:icon="@drawable/settings" />
+    <item
+        android:id="@+id/login"
+        android:title="Login"
+        android:orderInCategory="100"
+        android:menuCategory="container"
+        android:icon="@drawable/abc_ic_ab_back_mtrl_am_alpha" />
+</menu>

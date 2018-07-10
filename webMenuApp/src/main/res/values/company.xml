@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="letter_to_all">
+        <![CDATA[
+        <p>I am to add new manuals for all who is starting creating simple and professional projects.</p>
+        <b>My library of manuals contains:</b>
+        <p>
+                1.	Java – Best free programming language for all.<br>
+                2.	Android – smartphones, auto etc..<br>
+                3.	C# - good language for scripting and performance.<br>
+                4.	C++ - User interface programming for  business software development etc..<br>
+                5.	Php – web programming language.<br>
+
+                Somehow i am solving some aspects of programming to help understand how to begin programming.
+        </p>
+        ]]>
+    </string>
+</resources>

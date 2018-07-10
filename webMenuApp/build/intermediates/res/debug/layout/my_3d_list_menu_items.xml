@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/darkorange"
+    android:padding="10dp"
+>
+    <ImageView
+        android:id="@+id/contact_photo"
+        android:contentDescription="@string/img_description"
+        android:layout_width="48dip"
+        android:layout_height="48dip"
+        android:src="@drawable/telephone_icon_blue" />
+    <TextView
+        android:id="@+id/contact_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/contact_photo"
+        android:paddingBottom="5dip"
+        android:textSize="18sp"
+        android:textColor="#fff" />
+    <TextView
+        android:id="@+id/contact_number"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/contact_photo"
+        android:layout_below="@id/contact_name"
+        android:textSize="14sp"
+        android:textColor="#fff" />
+
+</RelativeLayout>
+<!-- From: file:/C:/Documents%20and%20Settings/EK/AndroidstudioProjects/WebMenuApp/webMenuApp/src/main/res/layout/my_3d_list_menu_items.xml -->

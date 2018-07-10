@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Documents and Settings\EK\AndroidstudioProjects\WebMenuApp\voiceimeutils\voiceimeutils.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="e95d4562c3efa28b3bcc1b0e94bdadcafa72c3fd">
+        <dex dex="C:\Documents and Settings\EK\AndroidstudioProjects\WebMenuApp\webMenuApp\build\intermediates\pre-dexed\debug\voiceimeutils-f0b187a4b486a9ea5a308faab0db259c3db2f274.jar" />
+    </item>
+    <item
+        jar="C:\Documents and Settings\EK\AndroidstudioProjects\WebMenuApp\webMenuApp\build\intermediates\exploded-aar\WebMenuApp\satellitemenu\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="2215791d9f3077ac8348c5e54115923de0d494ee">
+        <dex dex="C:\Documents and Settings\EK\AndroidstudioProjects\WebMenuApp\webMenuApp\build\intermediates\pre-dexed\debug\classes-d8dfab5a2a3e5608e4925ba470dc77adc6af4ffc.jar" />
+    </item>
+    <item
+        jar="C:\Documents and Settings\EK\AndroidstudioProjects\WebMenuApp\webMenuApp\build\intermediates\exploded-aar\WebMenuApp\androidsupportv7appcompat\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="6805a6773e47e785c12c06027d6e5fc523c14b39">
+        <dex dex="C:\Documents and Settings\EK\AndroidstudioProjects\WebMenuApp\webMenuApp\build\intermediates\pre-dexed\debug\classes-e3dc4e356fb1e95ebebc3e7064e4dbf348138151.jar" />
+    </item>
+    <item
+        jar="C:\Documents and Settings\EK\AndroidstudioProjects\WebMenuApp\webMenuApp\build\intermediates\exploded-aar\WebMenuApp\androidsupportv7appcompat\unspecified\libs\android-support-v7-appcompat.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="4a3c67dee4051a6bb47c877c6115ba4b1a246afb">
+        <dex dex="C:\Documents and Settings\EK\AndroidstudioProjects\WebMenuApp\webMenuApp\build\intermediates\pre-dexed\debug\android-support-v7-appcompat-4ca8c7650b62b88298a18b12c0e8bb12746bf331.jar" />
+    </item>
+    <item
+        jar="C:\Documents and Settings\EK\AndroidstudioProjects\WebMenuApp\webMenuApp\build\intermediates\exploded-aar\WebMenuApp\androidsupportv7appcompat\unspecified\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="9b6a9a9078af571732159b904ad423b03b7cc786">
+        <dex dex="C:\Documents and Settings\EK\AndroidstudioProjects\WebMenuApp\webMenuApp\build\intermediates\pre-dexed\debug\android-support-v4-2409b652f41221b0a00cdb05955bc7888a46d484.jar" />
+    </item>
+
+</items>

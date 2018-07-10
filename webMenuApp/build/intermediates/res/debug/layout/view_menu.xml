@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.webmenu.level11.ViewGroup.CustomMenuView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+</org.webmenu.level11.ViewGroup.CustomMenuView><!-- From: file:/C:/Documents%20and%20Settings/EK/AndroidstudioProjects/WebMenuApp/webMenuApp/src/main/res/layout/view_menu.xml -->

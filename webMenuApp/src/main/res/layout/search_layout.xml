@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:focusable="true"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:background="@color/dim_foreground_disabled_material_light">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:id="@id/container"
+        android:background="@color/hint_foreground_material_dark"
+        android:clickable="false"></FrameLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:focusable="true"
+        android:imeOptions="actionSearch|flagNoExtractUi"
+        android:id="@+id/editText"
+        android:selectAllOnFocus="false"
+        android:textSize="@dimen/abc_text_size_medium_material"
+        android:textColor="#c83f0006"
+        android:background="@drawable/abc_popup_background_mtrl_mult"
+        android:clickable="false"
+        android:gravity="center"
+        android:inputType="text" />
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="search_query_results">
+    	<item>About us</item>
+		<item>Products</item>
+    	<item>News</item>
+		<item>Knowledge base</item>
+		<item>Services</item>
+    	<item>Support</item>
+		<item>Technology description</item>
+	</string-array>
+	<integer-array name="search_query_results_headers">
+	    <item>0</item>
+	    <item>3</item>
+	    <item>5</item>
+	</integer-array>
+	    <string-array name="search_query_results_header_title">
+    	<item>About us</item>
+		<item>Products</item>
+    	<item>News</item>
+	</string-array>
+	<string-array name="search_query_dict">
+	    <item>about us.how to find us.contacts.personel.place</item>
+	    <item>products.giveback</item>
+	    <item>today.news</item>
+	    <item>support.knowledge base.diameter.programing.TCPIP.proto</item>
+	    <item>srvices</item>
+	    <item>support</item>
+	    <item>technology</item>
+	    <item></item>
+	</string-array>
+	<string-array name="search_query_about_us">
+	    <item>about us</item>
+	    <item>how to find us</item>
+	    <item>contacts</item>
+	    <item>personel</item>
+	    <item>place</item>
+	</string-array>
+	<string-array name="search_query_products">
+	    <item>products</item>
+	    <item>garantija</item>
+	</string-array>
+	<string-array name="search_query_news">
+	    <item>today</item>
+	    <item>news</item>
+	</string-array>
+	<string-array name="search_query_knowledge">
+	    <item>support</item>
+	    <item>knowledge base</item>
+	    <item>diameter</item>
+	    <item>programing</item>
+	    <item>TCPIP</item>
+	</string-array>
+	<string-array name="search_query_services">
+	    <item>services</item>
+	</string-array>
+	<string-array name="search_query_support">
+	    <item>support</item>
+	</string-array>
+	<string-array name="search_query_technology">
+	    <item>technology</item>
+	</string-array>
+	<array name="search_query_icon_set">
+	    <item>@drawable/info_ab</item>
+		<item>@drawable/products_00</item>
+		<item>@drawable/news</item>
+		<item>@drawable/knowledge_base</item>
+		<item>@drawable/service_0</item>
+		<item>@drawable/begin_3</item>
+		<item>@drawable/ic_launcher</item>
+		<item>@drawable/about_us</item>
+	</array>
+</resources>

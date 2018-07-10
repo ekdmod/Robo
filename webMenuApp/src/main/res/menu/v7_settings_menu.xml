@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.webmenuapp.ActiveMenu">
+    
+    <item
+        android:id="@+id/editTextSearch"
+        android:title="@string/search"
+        android:showAsAction="ifRoom"
+        android:orderInCategory="100"
+        android:menuCategory="container"
+        android:icon="@drawable/search" />
+    <item
+        android:id="@+id/news"
+        android:title="@string/news"        
+        android:showAsAction="ifRoom"
+        android:orderInCategory="100"
+        android:menuCategory="container"
+        android:icon="@drawable/news" />
+    <item
+        android:id="@+id/facebook"
+        android:title="@string/facebook"        
+        android:showAsAction="ifRoom"
+        android:orderInCategory="100"
+        android:menuCategory="container"
+        android:icon="@drawable/find_me" />
+    <item
+        android:id="@+id/feedback"
+        android:title="@string/feedback"        
+        android:showAsAction="ifRoom"
+        android:orderInCategory="100"
+        android:menuCategory="container"
+        android:icon="@drawable/feedback_setting" />
+    <item
+        android:id="@+id/narrow"
+        android:title="@string/narrow"
+        android:orderInCategory="100"
+        android:menuCategory="container"
+        android:icon="@drawable/aaa3" />
+    <item
+        android:id="@+id/google"
+        android:title="@string/google"
+        android:orderInCategory="100"
+        android:menuCategory="container"
+        android:icon="@drawable/ic_launcher" />
+    <item
+        android:id="@+id/theme_settings"
+        android:title="@string/theme"
+        android:orderInCategory="100"
+        android:menuCategory="container"
+        android:icon="@drawable/settings" />
+</menu>

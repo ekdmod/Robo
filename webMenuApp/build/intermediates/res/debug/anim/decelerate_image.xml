@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+    android:shareInterpolator="true" >
+    <alpha
+        android:fromAlpha="0"
+        android:toAlpha="0.5" />
+    <scale
+        android:fromXScale="5"
+        android:toXScale="0"
+        android:fromYScale="3"
+        android:toYScale="2"
+        android:pivotX="4"
+        android:pivotY="0" />
+    <translate
+        android:fromXDelta="0"
+        android:toXDelta="0"
+        android:fromYDelta="0"
+        android:toYDelta="0" />
+    <rotate
+        android:fromDegrees="45"
+        android:toDegrees="80"
+        android:pivotX="0"
+        android:pivotY="0" />
+    <set>
+    </set>
+</set><!-- From: file:/C:/Documents%20and%20Settings/EK/AndroidstudioProjects/WebMenuApp/webMenuApp/src/main/res/anim/decelerate_image.xml -->

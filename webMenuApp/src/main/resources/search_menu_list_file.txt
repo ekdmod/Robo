@@ -1,0 +1,33 @@
+0--php/what is php ? .html--what_is_php--What is PHP ?--What is PHP summary
+0--php/What PHP can do ? .html--what_php_can_do--What PHP can do ?--What PHP can do summary
+0--php/PHP and Java .html--java_and_php--PHP and Java--PHP and Java summary
+0--php/PHP and c# .html--csharp_and_php--PHP and C#--PHP and C# summary
+0--php/PHP and C++ .html--cplus_and_php--PHP and C++--PHP and C++ summary
+0--php/PHP and HTML .html--html_and_php--PHP and HTML--PHP and HTML summary
+0--php/Configuring PHP for Apache Web Services .html--php_and_apache--Configuring PHP for Apache Web Services--Configuring PHP for Apache Web Services summary
+0--php/Errors control in PHP .html--php_error_control--Errors control in PHP--Errors control in PHP summary
+0--php/Server constants in PHP .html--php_server_constants--Server constants in PHP--Server constants in PHP summary
+0--php/PHP input check and security .html--php_input_checking--PHP input check and security--PHP input check and security summary
+0--php/PHP operators .html--php_operators--PHP operators--PHP operators summary
+0--php/PHP passwords generators .html--php_passwords--PHP passwords generators--PHP passwords generators summary
+0--php/PHP constants .html--php_constants--PHP constants--PHP constants summary
+0--php/PHP comparison.html--php_comparision--Php comparision--Php comparision
+0--php/PHP scope .html--php_scope--PHP scope--PHP scope summary
+1--java/Why i need java ? .html--java--Why i need java ?--Why i need java summary
+1--java/Java for performance .html--java_performance--Java performance--Java summary for performance
+1--java/Java classes .html--java_classes--Java classes--Java classes summary
+1--java/Java virtual machine .html--java_virtual_machine--Java virtual machine--About java virtual machine
+1--java/Java compatibility for all platforms .html--java_compatibility--About java compatibility for all platforms-- Java compat
+3--cpp/What is C++ ? .html--cplus--What is C++ ?--About C-Plus
+3--cpp/Where C++ is used ? .html--cplus_manual--How C++ is used ?--Summary of C++
+3--cpp/How to begin programming in C++ ? .html--cplus_beginning--How to begin programming C++ ?--C-Plus for beginners
+3--cpp/C++ forms .html--cplus_forms--Forms in C++--Forms in C++
+3--cpp/C++ data handling .html--cplus_data--C++ data handling---C++ data handling
+3--cpp/Ajax framework for C++ .html--ajax_cplus--C plus and ajax--About ajax usage
+3--cpp/Resources for c++ .html--cplus_resource--Resources in cplus--How to use resources in C++ ?
+3--cpp/C++ online info lib .html--cplus_online_info--Manuals--C-Plus doc
+4--android/Android phone.html--what_is_android--Android--Summary about android
+4--android/Android TV.html--android_tv--Android TV--What is android for TV
+4--android/Google SDK.html--android_sdk--Goodle SDK--What is in Android SDK
+4--android/Android speech apis.html--google_voice_service--Google voice api--About google voice services
+4--android/Java - Android compatibility.html--android_compatibility--Android compatibility with Java-- Android - Java compatibility summary

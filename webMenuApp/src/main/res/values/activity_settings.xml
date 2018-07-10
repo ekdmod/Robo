@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="setting_ids">
+        <item>Icons theme</item>
+        <item>Icon size</item>
+        <item>Adapt color settings</item>
+        <item>Look and feel</item>
+        <item>Support</item>
+        <item>About</item>
+    </string-array>
+    <string-array name="setting_descriptions">
+        <item>Icons</item>
+        <item>Adapt color settings</item>
+        <item>Visual effect used throughout.</item>
+        <item>Gestures and buttons.</item>
+        <item>Support</item>
+        <item>About</item>
+    </string-array>
+    <string-array name="icons_setting_titles">
+        <item>Default</item>
+        <item>Basic</item>
+        <item>Transparent</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Light</item>
+        <item>Dark</item>
+        <item>Funny</item>
+    </string-array>
+    <string-array name="icons_setting_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string name="icons_default">0</string>
+    <string-array name="style_setting_titles">
+        <item>Default</item>
+        <item>Light</item>
+        <item>Dark</item>
+        <item>Dimmed</item>
+        <item>Gold</item>
+        <item>Massive</item>
+        <item>Adhesive</item>
+        <item>Full transparent</item>
+   </string-array>
+   <string-array name="style_setting_values">
+       <item>0</item>
+       <item>1</item>
+       <item>2</item>
+       <item>3</item>
+       <item>4</item>
+       <item>5</item>
+       <item>6</item>
+       <item>7</item>
+       <item>8</item>
+   </string-array>
+   <string name="style_default_setting">0</string>
+   <string-array name="font_size_settings_titles">
+        <item>Small</item>
+        <item>Normal</item>
+        <item>Medium</item>
+        <item>Large</item>
+   </string-array>
+    <string-array name="font_size_settings_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string name="font_size_default_setting">0</string>
+</resources>

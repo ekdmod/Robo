@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="cplus_forms" />
+    <item type="id" name="cplus_data" />
+    <item type="id" name="ajax_cplus" />
+    <item type="id" name="cplus_resource" />
+    <item type="id" name="cplus_online_info" />
+    <item type="id" name="cplus_beginning" />
+    <item type="id" name="cplus_manual" />
+    <item type="id" name="cplus" />
+    <item type="id" name="what_is_php" />
+    <item type="id" name="what_php_can_do" />
+    <item type="id" name="java_and_php" />
+    <item type="id" name="csharp_and_php" />
+    <item type="id" name="cplus_and_php" />
+    <item type="id" name="html_and_php" />
+    <item type="id" name="php_and_apache" />
+    <item type="id" name="php_error_control" />
+    <item type="id" name="php_server_constants" />
+    <item type="id" name="php_input_checking" />
+    <item type="id" name="php_operators" />
+    <item type="id" name="php_passwords" />
+    <item type="id" name="php_constants" />
+    <item type="id" name="php_comparision" />
+    <item type="id" name="php_scope" />
+    <item type="id" name="java" />
+    <item type="id" name="java_performance" />
+    <item type="id" name="java_classes" />
+    <item type="id" name="java_virtual_machine" />
+    <item type="id" name="java_compatibility" />
+    <item type="id" name="what_is_android" />
+    <item type="id" name="android_tv" />
+    <item type="id" name="android_sdk" />
+    <item type="id" name="google_voice_service" />
+    <item type="id" name="android_compatibility" />
+    <item type="id" name="about_csharp" />
+    <item type="id" name="csharp_usages" />
+    <item type="id" name="csharp_for_beginner" />
+    <item type="id" name="csharp_forms" />
+    <item type="id" name="csharp_data" />
+    <item type="id" name="ajax_csharp" />
+    <item type="id" name="csharp_res" />
+    <item type="id" name="csharp_manuals" />
+</resources>

@@ -1,0 +1,472 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1257">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 11">
+<meta name=Originator content="Microsoft Word 11">
+<link rel=File-List href="Operator%20Precedence%20in%20PHP_files/filelist.xml">
+<title>Operator Precedence</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>EDEN</o:Author>
+  <o:LastAuthor>EDEN</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>2</o:TotalTime>
+  <o:Created>2015-02-21T14:11:00Z</o:Created>
+  <o:LastSaved>2015-02-21T14:11:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>580</o:Words>
+  <o:Characters>3312</o:Characters>
+  <o:Company>E</o:Company>
+  <o:Lines>27</o:Lines>
+  <o:Paragraphs>7</o:Paragraphs>
+  <o:CharactersWithSpaces>3885</o:CharactersWithSpaces>
+  <o:Version>11.9999</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+h2
+	{mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:2;
+	font-size:18.0pt;
+	font-family:"Times New Roman";}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+p.para, li.para, div.para
+	{mso-style-name:para;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+span.function
+	{mso-style-name:function;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+@page Section1
+	{size:612.0pt 792.0pt;
+	margin:26.95pt 45.0pt 26.95pt 27.0pt;
+	mso-header-margin:35.4pt;
+	mso-footer-margin:35.4pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]-->
+</head>
+
+<body lang=EN-US link=blue vlink=purple style='tab-interval:36.0pt'>
+
+<div class=Section1>
+
+<h2 align=center style='text-align:center'>Operator Precedence</h2>
+
+<p class=para>The precedence of an operator specifies how &quot;tightly&quot;
+it binds two expressions together. For example, in the expression <em>1 + 5 * 3</em>,
+the answer is <em>16</em> and not <em>18</em> because the multiplication
+(&quot;*&quot;) operator has a higher precedence than the addition
+(&quot;+&quot;) operator. Parentheses may be used to force precedence, if
+necessary. For instance: <em>(1 + 5) * 3</em> evaluates to <em>18</em>. </p>
+
+<p class=para>When operators have equal precedence their <span class=SpellE>associativity</span>
+decides how the operators are grouped. For example &quot;-&quot; is
+left-associative, so <em>1 - 2 - 3</em> is grouped as <em>(1 - 2) - 3</em> and
+evaluates to <em>-4</em>. &quot;=&quot; on the other hand is right-associative,
+so <em>$a = $b = $c</em> is grouped as <em>$a = ($b = $c)</em>. </p>
+
+<p class=para>Operators of equal precedence that are non-associative cannot be
+used next to each other, for example <em>1 &lt; 2 &gt; 1</em> is illegal in
+PHP. The expression <em>1 &lt;= 1 == 1</em> on the other hand is legal, because
+the <em>==</em> operator has lesser precedence than the <em>&lt;=</em>
+operator. </p>
+
+<p class=para>Use of parentheses, even when not strictly necessary, can often
+increase readability of the code by making grouping explicit rather than
+relying on the implicit operator precedence and <span class=SpellE>associativity</span>.
+</p>
+
+<p class=para>The following table lists the operators in order of precedence,
+with the highest-precedence ones at the top. Operators on the same line have
+equal precedence, in which case <span class=SpellE>associativity</span> decides
+grouping. </p>
+
+<div align=center>
+
+<table class=MsoNormalTable border=0 cellpadding=0 style='mso-cellspacing:1.5pt'>
+ <thead>
+  <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+   <td colspan=3 style='padding:.75pt .75pt .75pt .75pt'>
+   <p class=MsoNormal align=center style='text-align:center'><strong>Operator
+   Precedence</strong></p>
+   </td>
+  </tr>
+  <tr style='mso-yfti-irow:1'>
+   <td style='padding:.75pt .75pt .75pt .75pt'>
+   <p class=MsoNormal align=center style='text-align:center'><span
+   class=SpellE><b>Associativity</b></span><b><o:p></o:p></b></p>
+   </td>
+   <td style='padding:.75pt .75pt .75pt .75pt'>
+   <p class=MsoNormal align=center style='text-align:center'><b>Operators<o:p></o:p></b></p>
+   </td>
+   <td style='padding:.75pt .75pt .75pt .75pt'>
+   <p class=MsoNormal align=center style='text-align:center'><b>Additional
+   Information<o:p></o:p></b></p>
+   </td>
+  </tr>
+ </thead>
+ <tr style='mso-yfti-irow:2'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>non-associative</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><em>clone</em> <em>new</em> </p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><a
+  href="http://php.net/manual/en/language.oop5.cloning.php">clone</a> and <a
+  href="http://php.net/manual/en/language.oop5.basic.php#language.oop5.basic.new">new</a></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>left</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><em>[</em></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=function><a
+  href="http://php.net/manual/en/function.array.php">array()</a></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>right</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><em>**</em></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><a
+  href="http://php.net/manual/en/language.operators.arithmetic.php">arithmetic</a></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:5'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>right</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><em>++</em> <em>--</em> <em>~</em> <em>(<span
+  class=SpellE>int</span>)</em> <em>(float)</em> <em>(string)</em> <em>(array)</em>
+  <em>(object)</em> <em>(<span class=SpellE>bool</span>)</em> <em>@</em> </p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><a href="http://php.net/manual/en/language.types.php">types</a>
+  and <a href="http://php.net/manual/en/language.operators.increment.php">increment/decrement</a>
+  </p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:6'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>non-associative</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=SpellE><em>instanceof</em></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><a href="http://php.net/manual/en/language.types.php">types</a>
+  </p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:7'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>right</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><em>!</em></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><a
+  href="http://php.net/manual/en/language.operators.logical.php">logical</a> </p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:8'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>left</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><em>*</em> <em>/</em> <em>%</em> </p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><a
+  href="http://php.net/manual/en/language.operators.arithmetic.php">arithmetic</a>
+  </p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:9'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>left</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><em>+</em> <em>-</em> <em>.</em> </p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><a
+  href="http://php.net/manual/en/language.operators.arithmetic.php">arithmetic</a>
+  and <a href="http://php.net/manual/en/language.operators.string.php">string</a></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:10'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>left</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><em>&lt;&lt;</em> <em>&gt;&gt;</em> </p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><a
+  href="http://php.net/manual/en/language.operators.bitwise.php">bitwise</a> </p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:11'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>non-associative</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><em>&lt;</em> <em>&lt;=</em> <em>&gt;</em> <em>&gt;=</em> </p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><a
+  href="http://php.net/manual/en/language.operators.comparison.php">comparison</a>
+  </p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:12'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>non-associative</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><em>==</em> <em>!=</em> <em>===</em> <em>!==</em> <em>&lt;&gt;</em>
+  </p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><a
+  href="http://php.net/manual/en/language.operators.comparison.php">comparison</a>
+  </p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:13'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>left</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><em>&amp;</em></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><a
+  href="http://php.net/manual/en/language.operators.bitwise.php">bitwise</a>
+  and <a href="http://php.net/manual/en/language.references.php">references</a></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:14'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>left</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><em>^</em></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><a
+  href="http://php.net/manual/en/language.operators.bitwise.php">bitwise</a> </p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:15'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>left</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><em>|</em></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><a
+  href="http://php.net/manual/en/language.operators.bitwise.php">bitwise</a> </p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:16'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>left</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><em>&amp;&amp;</em></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><a
+  href="http://php.net/manual/en/language.operators.logical.php">logical</a> </p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:17'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>left</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><em>||</em></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><a
+  href="http://php.net/manual/en/language.operators.logical.php">logical</a> </p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:18'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>left</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><em>? :</em></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><a
+  href="http://php.net/manual/en/language.operators.comparison.php#language.operators.comparison.ternary">ternary</a>
+  </p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:19'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>right</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><em>=</em> <em>+=</em> <em>-=</em> <em>*=</em> <em>**=</em>
+  <em>/=</em> <em>.=</em> <em>%=</em> <em>&amp;=</em> <em>|=</em> <em>^=</em> <em>&lt;&lt;=</em>
+  <em>&gt;&gt;=</em> <em>=&gt;</em> </p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><a
+  href="http://php.net/manual/en/language.operators.assignment.php">assignment</a>
+  </p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:20'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>left</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><em>and</em></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><a
+  href="http://php.net/manual/en/language.operators.logical.php">logical</a> </p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:21'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>left</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=SpellE><em>xor</em></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><a
+  href="http://php.net/manual/en/language.operators.logical.php">logical</a> </p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:22'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>left</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><em>or</em></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><a
+  href="http://php.net/manual/en/language.operators.logical.php">logical</a> </p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:23;mso-yfti-lastrow:yes'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>left</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><em>,</em></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>many uses</p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+
+</div>
+
+</body>
+
+</html>
